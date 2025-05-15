@@ -1,0 +1,26 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+cell_bank_type_id,,,,YES,,integer,,,,cell_bank_types
+stem_cell_line_id,,,,YES,,integer,,,,stem_cell_lines
+progenitor_differentiation_id,,,,YES,,integer,,,,differentiations
+number_of_straws,,,,YES,,integer,,,,
+frozen_media_type,,,,YES,,character varying,,255.0,"'RecoveryTM Cell Culture Freezing Medium, Cat#12648-010'::character varying",
+location,,,,YES,,character varying,,255.0,,
+passage_number,,,,YES,,integer,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+progenitor_differentiation_collection_day_id,,,,YES,,integer,,,,differentiation_collection_days
+name,,,,YES,,character varying,,255.0,,
+cell_bank_creation_date,,,,YES,,timestamp without time zone,,,,
+barcode,,,,YES,,character varying,,255.0,,
+parent_id,,,,YES,,integer,,,,cell_banks
+pluripotency_marker_icc_state_id,,,,YES,,integer,,,,stem_cell_line_states
+pluripotency_marker_immunoflow_state_id,,,,YES,,integer,,,,stem_cell_line_states
+sterility_bacterial_fungi_mycoplasma_state_id,,,,YES,,integer,,,,stem_cell_line_states
+sterility_mycoplasma_state_id,,,,YES,,integer,,,,stem_cell_line_states
+pathogen_mouse_state_id,,,,YES,,integer,,,,stem_cell_line_states
+pathogen_human_state_id,,,,YES,,integer,,,,stem_cell_line_states
+genome_intactness_state_id,,,,YES,,integer,,,,stem_cell_line_states
+reprogramming_factor_cleaned_state_id,,,,YES,,integer,,,,stem_cell_line_states
+pluritest_state_id,,,,YES,,integer,,,,stem_cell_line_states
+cell_sample_id,,,,YES,,integer,,,,cell_samples

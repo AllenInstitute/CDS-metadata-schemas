@@ -1,0 +1,9 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+lot_number,,,,YES,,character varying,,255.0,,
+chemical_id,,,,YES,,integer,,,,chemicals
+cell_prep_sample_enzyme_id,,,,YES,,integer,,,,cell_prep_samples
+cell_prep_sample_reagent_id,,,,YES,,integer,,,,cell_prep_samples
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+concentration,,,,YES,,double precision,,,,

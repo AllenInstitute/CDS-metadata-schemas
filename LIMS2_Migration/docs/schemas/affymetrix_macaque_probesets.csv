@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+displayable_id_from_affymetrix,,,,YES,,character varying,,255.0,,
+transcript_id,,,,YES,,integer,,,,transcripts
+microarray_chipset_id,,,,YES,,integer,,,,microarray_chipsets
+annotation,,,,YES,,character varying,,255.0,,
+annotation_transcript_cluster,,,,YES,,text,,,,
+organism_id,,,,YES,,integer,,,,organisms
+alignment,,,,YES,,text,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

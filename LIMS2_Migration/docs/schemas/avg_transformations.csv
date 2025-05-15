@@ -1,0 +1,14 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+type,,,,NO,,character varying,,255.0,,
+order,,,,NO,,integer,,,,
+sx,,,,NO,,double precision,,,,
+rx,,,,YES,,double precision,,,,
+ry,,,,YES,,double precision,,,,
+sy,,,,NO,,double precision,,,,
+tx,,,,YES,,double precision,,,,
+ty,,,,YES,,double precision,,,,
+a,,,,YES,,double precision,,,,
+graphic_object_id,,,,YES,,integer,,,,avg_graphic_objects
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
