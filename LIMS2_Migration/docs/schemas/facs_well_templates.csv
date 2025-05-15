@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+row,,,,YES,,character varying,,255.0,,
+col,,,,YES,,integer,,,,
+cell_number_revised,,,,YES,,integer,,,,
+cell_number_collected,,,,YES,,integer,,,,
+efficiency_check,,,,YES,,character varying,,255.0,,
+cell_number_requested,,,,YES,,integer,,,,
+type,,,,YES,,character varying,,255.0,,
+facs_plate_template_id,,,,YES,,integer,,,,facs_plate_templates
+facs_population_plan_id,,,,YES,,integer,,,,facs_population_plans
+facs_plate_id,,,,YES,,integer,,,,facs_plate_templates
+external_control_id,,,,YES,,integer,,,,external_controls
+differentiation_stage_instance_id,,,,YES,,integer,,,,differentiation_stage_instances
+cell_prep_sample_id,,,,YES,,integer,,,,cell_prep_samples
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

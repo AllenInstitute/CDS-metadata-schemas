@@ -1,0 +1,20 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+jp2,,,,YES,,character varying,,255.0,,
+zoom,,,,YES,,character varying,,255.0,,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+qc_date,,,,YES,,timestamp without time zone,,,,
+slide_id,,,,YES,,integer,,,,slides
+width,,,,YES,,integer,,,,
+height,,,,YES,,integer,,,,
+image_type_id,,,,NO,,integer,,,,image_types
+parent_id,,,,YES,,integer,,,,images
+position,,,,NO,,integer,,,1,
+specimen_id,,,,YES,,integer,,,,specimens
+jp2_md5sum,,,,YES,,character varying,,32.0,,
+flip_id,,,,NO,,integer,,,1,flips
+zoom_tiers,,,,YES,,integer,,,,
+archive_dir,,,,YES,,character varying,,255.0,NULL::character varying,
+zoom_archive_dir,,,,YES,,character varying,,255.0,,
+treatment_id,,,,YES,,integer,,,,

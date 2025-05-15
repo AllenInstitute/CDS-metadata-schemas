@@ -1,0 +1,16 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+fluor_color_id,,,,YES,,integer,,,,fluor_colors
+serotype,,,,YES,,character varying,,255.0,,
+concentration,,,,YES,,character varying,,255.0,,
+batch_number,,,,YES,,character varying,,255.0,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+injection_material_propagation_direction_id,,,,YES,,integer,,,,injection_material_propagation_directions
+targeted_cell_populations,,,,YES,,character varying,,,,
+validated_cell_populations,,,,YES,,character varying,,,,
+targeted_roi,,,,YES,,character varying,,,,
+validated_roi,,,,YES,,character varying,,,,
+other_aliases,,,,YES,,character varying,,,,
+genome_molecule_aliases,,,,YES,,character varying,,,,
