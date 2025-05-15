@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+runplanid,,,,YES,,integer,,,,
+runplanname,,,,YES,,character varying,,255.0,,
+rungroupid,,,,YES,,integer,,,,
+rungroupname,,,,YES,,integer,,,,
+slideid,,,,YES,,integer,,,,
+slidename,,,,YES,,character varying,,255.0,,
+probename,,,,YES,,character varying,,255.0,,
