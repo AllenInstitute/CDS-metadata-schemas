@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+days_since_last_run,,,,YES,,integer,,,0,
+notification_type_id,,,,YES,,integer,,,,notification_types
+slack_channel,,,,YES,,character varying,,255.0,,
+notification_run_frequency_id,,,,YES,,integer,,,,notification_run_frequencies
+disabled,,,,YES,,boolean,,,FALSE,

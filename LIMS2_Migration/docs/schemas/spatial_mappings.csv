@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+brain_id,,,,YES,,integer,,,,
+slab_id,,,,YES,,integer,,,,
+chunk_id,,,,YES,,integer,,,,
+mri_z,,,,YES,,integer,,,,
+mri_y,,,,YES,,integer,,,,
+mri_x,,,,YES,,integer,,,,
+y,,,,YES,,integer,,,,
+x,,,,YES,,integer,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

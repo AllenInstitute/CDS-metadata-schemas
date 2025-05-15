@@ -1,0 +1,61 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,255,,
+plane_of_section_id,,,,NO,,integer,,,,plane_of_sections
+frozen_at,,,,YES,,timestamp without time zone,,,,
+rna_integrity_number,,,,YES,,double precision,,,,
+tissue_ph,,,,YES,,double precision,,,,
+hemisphere_id,,,,YES,,integer,,,,hemispheres
+created_by,,,,YES,,character varying,,255,,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_by,,,,YES,,character varying,,255,,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+parent_id,,,,YES,,integer,,,,specimens
+structure_id,,,,YES,,integer,,,,structures
+postmortem_interval_id,,,,YES,,integer,,,,postmortem_intervals
+preparation_method_id,,,,YES,,integer,,,,specimen_preparation_methods
+parent_x_coord,,,,YES,,integer,,,,
+parent_y_coord,,,,YES,,integer,,,,
+parent_z_coord,,,,YES,,integer,,,,
+barcode,,,,YES,,character varying,,10,,
+location_id,,,,YES,,integer,,,,locations
+storage_directory,,,,YES,,character varying,,255,,
+project_id,,,,NO,,integer,,,,projects
+specimen_preparation_method_id,,,,YES,,integer,,,,specimen_preparation_methods
+alignment3d_id,,,,YES,,integer,,,,alignment3ds
+reference_space_id,,,,YES,,integer,,,,reference_spaces
+external_specimen_name,,,,YES,,character varying,,255,,
+normalization_group_id,,,,YES,,integer,,,,normalization_groups
+carousel_well_name,,,,YES,,character varying,,255,,
+donor_id,,,,NO,,integer,,,,donors
+ephys_cell_plan_id,,,,YES,,integer,,,,ephys_cell_plans
+ephys_roi_result_id,,,,YES,,integer,,,,ephys_roi_results
+histology_well_name,,,,YES,,character varying,,255,,
+priority,,,,YES,,integer,,,,
+ephys_neural_tissue_plan_id,,,,YES,,integer,,,,ephys_neural_tissue_plans
+tissue_processing_id,,,,YES,,integer,,,,tissue_processings
+task_flow_id,,,,YES,,integer,,,,task_flows
+specimen_set_id,,,,YES,,integer,,,,specimen_sets
+biophysical_model_state,,,,YES,,character varying,,255,'review_required'::character varying,
+cell_prep_id,,,,YES,,integer,,,,cell_preps
+data,,,,YES,,jsonb,,,,
+cell_depth,,,,YES,,double precision,,,,
+cell_reporter_id,,,,YES,,integer,,,,cell_reporters
+facs_well_id,,,,YES,,integer,,,,facs_well_templates
+patched_cell_container,,,,YES,,character varying,,255,,
+cortex_layer_id,,,,YES,,integer,,,,structures
+cell_label,,,,YES,,character varying,,255,,
+flipped_specimen_id,,,,NO,,integer,,,,flipped_specimens
+operation_id,,,,YES,,integer,,,,operations
+pinned_radius,,,,YES,,double precision,,,,
+x_coord,,,,YES,,integer,,,,
+y_coord,,,,YES,,integer,,,,
+ephys_qc_result,,,,YES,,character varying,,,,
+ephys_start_time_sec,,,,YES,,double precision,,,,
+starter_cell_count,,,,YES,,integer,,,,
+task_id,,,,YES,,integer,,,,task_templates
+workflow_state,,,,YES,,character varying,,,,
+mfish_experiment_id,,,,YES,,integer,,,,mfish_plans
+sectioning_task_id,,,,YES,,integer,,,,sectioning_tasks
+merscope_experiment_id,,,,YES,,integer,,,,merscope_plans
+oligo_tag,,,,YES,,character varying,,,,

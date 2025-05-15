@@ -1,0 +1,20 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+path,,,,NO,,character varying,,255.0,,
+archived_at,,,,YES,,timestamp without time zone,,,,
+superseded,,,,NO,,boolean,,,FALSE,
+slide_id,,,,YES,,integer,,,,slides
+scanner_id,,,,NO,,integer,,,,scanners
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+image_id,,,,YES,,integer,,,,images
+state,,,,NO,,character varying,,255.0,,
+resolution,,,,NO,,double precision,,,,
+bits_per_component,,,,YES,,integer,,,,
+number_of_components,,,,YES,,integer,,,,
+rotation,,,,YES,,double precision,,,,
+offset_x,,,,YES,,integer,,,,
+offset_y,,,,YES,,integer,,,,
+treatment_id,,,,YES,,integer,,,,
+project_id,,,,YES,,integer,,,,projects
+specimen_id,,,,YES,,integer,,,,specimens
