@@ -1,0 +1,7 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+field_name,,,,YES,,character varying,,255.0,,
+use_join_table,,,,YES,,boolean,,,FALSE,
+foreign_key_id,,,,YES,,character varying,,255.0,,
+join_table_name,,,,YES,,character varying,,255.0,,

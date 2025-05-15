@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,,,
+hybridization_sequence_id,,,,YES,,integer,,,,sequences
+full_sequence_id,,,,YES,,integer,,,,sequences
+gene_oligo_pool_id,,,,YES,,integer,,,,gene_oligo_pools
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
