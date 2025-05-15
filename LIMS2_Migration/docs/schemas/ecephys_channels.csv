@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+local_index,,,,YES,,integer,,,,
+ecephys_probe_id,,,,YES,,integer,,,,ecephys_probes
+valid_data,,,,YES,,boolean,,,,
+probe_vertical_position,,,,YES,,double precision,,,,
+probe_horizontal_position,,,,YES,,double precision,,,,
+manual_structure_id,,,,YES,,integer,,,,structures
+anterior_posterior_ccf_coordinate,,,,YES,,double precision,,,,
+dorsal_ventral_ccf_coordinate,,,,YES,,double precision,,,,
+left_right_ccf_coordinate,,,,YES,,double precision,,,,
+manual_cortical_depth,,,,YES,,double precision,,,,

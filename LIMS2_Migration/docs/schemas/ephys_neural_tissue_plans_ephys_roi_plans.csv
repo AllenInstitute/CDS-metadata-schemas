@@ -1,0 +1,3 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+ephys_neural_tissue_plan_id,,,,YES,,integer,,,,ephys_neural_tissue_plans
+ephys_roi_plan_id,,,,YES,,integer,,,,ephys_roi_plans

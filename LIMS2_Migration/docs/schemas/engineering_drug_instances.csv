@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+start_date,,,,YES,,timestamp without time zone,,,,
+end_date,,,,YES,,timestamp without time zone,,,,
+concentration_mcg_ml,,,,YES,,double precision,,,,
+colony_count,,,,YES,,integer,,,,
+has_colony_survived,,,,YES,,boolean,,,,
+engineering_drug_id,,,,YES,,integer,,,,engineering_drugs
+transfection_condition_id,,,,YES,,integer,,,,transfection_conditions
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

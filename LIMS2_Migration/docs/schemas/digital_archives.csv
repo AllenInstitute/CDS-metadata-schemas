@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,,,
+url,,,,YES,,character varying,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+digital_archive_account_id,,,,YES,,integer,,,,digital_archive_accounts
+comments,,,,YES,,text,,,,

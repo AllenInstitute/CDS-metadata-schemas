@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+well_known_file_id,,,,NO,,integer,,,,well_known_files
+digital_archive_id,,,,NO,,integer,,,,digital_archives
+external_id,,,,YES,,character varying,,,,
+url,,,,YES,,character varying,,,,
+resource_state,,,,YES,,character varying,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+data_collection,,,,YES,,character varying,,,,
+legal_doc_id,,,,YES,,character varying,,,,
+external_status,,,,YES,,character varying,,,,

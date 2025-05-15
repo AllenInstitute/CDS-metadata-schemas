@@ -1,0 +1,10 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+ercc_stock_pool_id,,,,YES,,integer,,,,ercc_stock_pools
+parent_id,,,,YES,,integer,,,,ercc_diluted_pools
+dilution_from_stock_pool,,,,YES,,double precision,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+comments,,,,YES,,text,,,,
+preparation_date,,,,YES,,date,,,,
