@@ -1,0 +1,26 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+clone_source_id,,,,NO,,integer,,,,clone_sources
+sequence_id,,,,YES,,integer,,,,sequences
+cloning_vector_id,,,,YES,,integer,,,,cloning_vectors
+orientation_id,,,,YES,,integer,,,,orientations
+plate_name,,,,YES,,character varying,,255.0,,
+clone_column,,,,YES,,integer,,,,
+clone_row,,,,YES,,character varying,,255.0,,
+freezer_id,,,,YES,,integer,,,,freezers
+shelf,,,,YES,,integer,,,,
+rearray_collection,,,,YES,,character varying,,255.0,,
+rearray_plate,,,,YES,,character varying,,255.0,,
+rearray_column,,,,YES,,integer,,,,
+rearray_row,,,,YES,,character varying,,255.0,,
+entrez_id,,,,YES,,integer,,,,
+image_id,,,,YES,,integer,,,,
+mgc_id,,,,YES,,integer,,,,
+gi,,,,YES,,integer,,,,
+gb_accession_number,,,,YES,,character varying,,255.0,,
+gb_version,,,,YES,,integer,,,,
+riken_id_1,,,,YES,,character varying,,255.0,,
+riken_id_2,,,,YES,,character varying,,255.0,,
+riken_id_3,,,,YES,,integer,,,,

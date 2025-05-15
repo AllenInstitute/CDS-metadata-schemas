@@ -1,0 +1,32 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+change_type,,,,YES,,character varying,,255.0,,
+change_stack_type,,,,YES,,character varying,,255.0,,
+next_id,,,,YES,,integer,,,,annotated_region_histories
+previous_id,,,,YES,,integer,,,,annotated_region_histories
+annotated_region_id,,,,YES,,integer,,,,annotated_regions
+x,,,,YES,,integer,,,,
+y,,,,YES,,integer,,,,
+width,,,,YES,,integer,,,,
+height,,,,YES,,integer,,,,
+structure_id,,,,YES,,integer,,,,structures
+sign_positive,,,,YES,,boolean,,,,
+deleted,,,,YES,,boolean,,,,
+isi_experiment_id,,,,YES,,integer,,,,
+most_recent_change,,,,YES,,boolean,,,,
+group_id,,,,YES,,integer,,,,
+mask_matrix,,,,YES,,ARRAY,,,,
+pixel_centroid_x,,,,YES,,integer,,,,
+pixel_centroid_y,,,,YES,,integer,,,,
+reticle_centroid_x,,,,YES,,integer,,,,
+reticle_centroid_y,,,,YES,,integer,,,,
+min_altitude,,,,YES,,double precision,,,,
+max_altitude,,,,YES,,double precision,,,,
+range_altitude,,,,YES,,double precision,,,,
+bias_altitude,,,,YES,,double precision,,,,
+min_azimuth,,,,YES,,double precision,,,,
+max_azimuth,,,,YES,,double precision,,,,
+range_azimuth,,,,YES,,double precision,,,,
+bias_azimuth,,,,YES,,double precision,,,,
+eccentricity_at_centroid,,,,YES,,double precision,,,,
+area,,,,YES,,double precision,,,,

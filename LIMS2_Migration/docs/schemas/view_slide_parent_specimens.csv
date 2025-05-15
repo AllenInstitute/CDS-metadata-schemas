@@ -1,0 +1,7 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+section_slide_index,,,,YES,,integer,,,,
+section_id,,,,YES,,integer,,,,
+slide_id,,,,YES,,integer,,,,
+block_id,,,,YES,,integer,,,,
+parent_specimen_id,,,,YES,,integer,,,,
+grand_parent_specimen_id,,,,YES,,integer,,,,

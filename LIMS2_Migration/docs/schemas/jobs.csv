@@ -1,0 +1,24 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+enqueued_object_id,,,,NO,,integer,,,,
+job_queue_id,,,,NO,,integer,,,,job_queues
+job_state_id,,,,NO,,integer,,,,job_states
+shell_return_status,,,,YES,,integer,,,,
+warning_message,,,,YES,,text,,,,
+retries,,,,NO,,integer,,,0,
+enqueued_at,,,,NO,,timestamp without time zone,,,,
+completed_at,,,,YES,,timestamp without time zone,,,,
+priority,,,,NO,,integer,,,50,
+run_after,,,,YES,,timestamp without time zone,,,,
+dequeued_at,,,,YES,,timestamp without time zone,,,,
+drmaa_identifier,,,,YES,,character varying,,255.0,,
+archived,,,,NO,,boolean,,,FALSE,
+executable_id,,,,YES,,integer,,,,executables
+idp_done,,,,YES,,boolean,,,,
+enqueued_username,,,,YES,,character varying,,255.0,,
+project_id,,,,NO,,integer,,,,projects
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+job_finished,,,,YES,,boolean,,,FALSE,
+temp_local_output_directory,,,,YES,,character varying,,255.0,,
+parameters,,,,NO,,jsonb,,,'{}'::jsonb,

@@ -1,0 +1,10 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,text,,,,
+project_id,,,,NO,,integer,,,,projects
+specimen_id,,,,NO,,integer,,,,specimens
+isi_experiment_id,,,,YES,,integer,,,,isi_experiments
+storage_directory,,,,YES,,text,,,,
+workflow_state,,,,YES,,text,,,,
+published_at,,,,YES,,timestamp without time zone,,,,
+allow_cell_specimen_update,,,,YES,,boolean,,,FALSE,

@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+job_id,,,,NO,,integer,,,,
+username,,,,NO,,character varying,,255.0,,
+downsampling_all,,,,NO,,boolean,,,TRUE,
+sub_image_ids,,,,YES,,text,,,,
+downsampling_ratio,,,,NO,,integer,,,,
+grayscale,,,,NO,,boolean,,,FALSE,
+output_file_type,,,,NO,,character varying,,255.0,,
+compression_quality,,,,NO,,integer,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

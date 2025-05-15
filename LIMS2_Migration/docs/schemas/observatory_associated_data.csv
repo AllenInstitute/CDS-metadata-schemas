@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+observatory_record_id,,,,YES,,integer,,,,
+observatory_record_type,,,,YES,,character varying,,,,
+observatory_file_id,,,,YES,,integer,,,,
+observatory_file_type,,,,YES,,character varying,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

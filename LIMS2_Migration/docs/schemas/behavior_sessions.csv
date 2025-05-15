@@ -1,0 +1,16 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+behavior_training_id,,,,YES,,integer,,,,behavior_trainings
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+temp_output_file_location,,,,YES,,character varying,,,,
+foraging_id,,,,YES,,character varying,,,,
+donor_id,,,,YES,,integer,,,,donors
+ophys_session_id,,,,YES,,integer,,,,ophys_sessions
+equipment_id,,,,YES,,integer,,,,equipment
+user_id,,,,YES,,integer,,,,users
+ecephys_session_id,,,,YES,,integer,,,,ecephys_sessions
+date_of_acquisition,,,,YES,,timestamp without time zone,,,,
+stimulus_name,,,,YES,,character varying,,,,
+project_id,,,,YES,,integer,,,,projects

@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+x,,,,YES,,double precision,,,,
+y,,,,YES,,double precision,,,,
+z,,,,YES,,double precision,,,,
+normalized_depth,,,,YES,,double precision,,,,
+specimen_id,,,,YES,,integer,,,,specimens
+reference_space_id,,,,YES,,integer,,,,reference_spaces
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+soma_depth_um,,,,YES,,double precision,,,,

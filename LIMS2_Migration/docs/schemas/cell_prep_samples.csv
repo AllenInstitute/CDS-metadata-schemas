@@ -1,0 +1,14 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+cytometer_passed,,,,YES,,boolean,,,,
+enzyme_start_time,,,,YES,,timestamp without time zone,,,,
+enzyme_end_time,,,,YES,,timestamp without time zone,,,,
+cell_prep_id,,,,YES,,integer,,,,cell_preps
+cell_prep_roi_plan_id,,,,YES,,integer,,,,cell_prep_roi_plans
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+name,,,,YES,,character varying,,255.0,,
+cell_prep_sample_type_id,,,,YES,,integer,,,,cell_prep_sample_types
+note,,,,YES,,text,,,,
+cell_prep_sample_collection_type_id,,,,YES,,integer,,,,cell_prep_sample_collection_types
+rseq_oligo_id,,,,YES,,integer,,,,rseq_oligos

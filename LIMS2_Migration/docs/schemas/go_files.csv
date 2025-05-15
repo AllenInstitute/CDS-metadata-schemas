@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,255.0,,
+storage_directory,,,,NO,,character varying,,255.0,,
+file_size,,,,YES,,integer,,,,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+md5sum,,,,NO,,character varying,,255.0,,
+hemisphere,,,,YES,,character varying,,1.0,,
+go_file_type_id,,,,NO,,integer,,,,go_file_types
+parent_go_file_id,,,,YES,,integer,,,,go_files
+well_known_file_id,,,,YES,,integer,,,,well_known_files

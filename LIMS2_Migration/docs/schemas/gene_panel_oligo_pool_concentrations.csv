@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+gpp_applied_to_tissue_mm,,,,YES,,double precision,,,,
+gene_panel_oligo_pool_id,,,,YES,,integer,,,,gene_panel_oligo_pools
+mfish_plan_id,,,,YES,,integer,,,,mfish_plans
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+notes,,,,YES,,text,,,,

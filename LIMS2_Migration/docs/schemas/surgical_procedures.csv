@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+type,,,,YES,,character varying,,255.0,,
+comments,,,,YES,,text,,,,
+specimen_id,,,,YES,,integer,,,,specimens
+surgeon_id,,,,YES,,integer,,,,users
+days_post_injection,,,,YES,,integer,,,,
+primary_structure_id,,,,YES,,integer,,,,structures
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+surgery_date,,,,YES,,date,,,,
+coordinates_ap,,,,YES,,double precision,,,,
+coordinates_ml,,,,YES,,double precision,,,,
+registration_point_id,,,,YES,,integer,,,,registration_points
+diameter_mm,,,,YES,,integer,,,,
+instructions,,,,YES,,text,,,,
+surgery_orientation_id,,,,YES,,integer,,,,surgery_orientations
+task_template_id,,,,YES,,integer,,,,task_templates

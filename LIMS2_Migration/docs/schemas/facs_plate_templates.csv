@@ -1,0 +1,19 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+barcode,,,,YES,,character varying,,255.0,,
+description,,,,YES,,text,,,,
+failed,,,,YES,,boolean,,,,
+filled_wells_count,,,,YES,,integer,,,,
+start_time,,,,YES,,timestamp without time zone,,,,
+end_time,,,,YES,,timestamp without time zone,,,,
+type,,,,YES,,character varying,,255.0,,
+facs_plate_template_id,,,,YES,,integer,,,,facs_plate_templates
+plate_type_id,,,,YES,,integer,,,,plate_types
+location_id,,,,YES,,integer,,,,locations
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+buffer_id,,,,YES,,integer,,,,buffers
+buffer_volume_ul,,,,YES,,double precision,,,,
+collection_date,,,,YES,,date,,,,
+disposed,,,,NO,,boolean,,,FALSE,

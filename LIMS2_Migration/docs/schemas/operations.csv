@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+procedure_year,,,,YES,,integer,,,,
+comments,,,,YES,,character varying,,255.0,,
+diagnostics_pathology,,,,YES,,character varying,,255.0,,
+diagnostics_ecog,,,,YES,,boolean,,,,
+operation_type_id,,,,YES,,integer,,,,operation_types
+donor_id,,,,YES,,integer,,,,donors

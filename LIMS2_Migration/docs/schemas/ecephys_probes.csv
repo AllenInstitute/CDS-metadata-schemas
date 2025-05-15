@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,,,
+storage_directory,,,,YES,,character varying,,,,
+workflow_state,,,,YES,,character varying,,,,
+ecephys_session_id,,,,YES,,integer,,,,ecephys_sessions
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+probe_info,,,,YES,,jsonb,,,'{}'::jsonb,
+global_probe_sampling_rate,,,,YES,,double precision,,,,
+global_probe_lfp_sampling_rate,,,,YES,,double precision,,,,
+total_time_shift,,,,YES,,double precision,,,,
+phase,,,,YES,,character varying,,,,
+air_channel_index,,,,YES,,character varying,,,,
+surface_channel_index,,,,YES,,integer,,,,
+use_lfp_data,,,,YES,,boolean,,,,
+use_spike_data,,,,YES,,boolean,,,,
+temporal_subsampling_factor,,,,YES,,double precision,,,,

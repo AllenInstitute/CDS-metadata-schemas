@@ -1,0 +1,17 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+probe_length,,,,YES,,integer,,,,
+genomic_per_lane,,,,YES,,double precision,,,,
+digestion_time,,,,YES,,double precision,,,,
+digestion_temp,,,,YES,,double precision,,,,
+probe_activity,,,,YES,,double precision,,,,
+probe_hybridization_mass,,,,YES,,double precision,,,,
+hybridization_time,,,,YES,,double precision,,,,
+hybridization_temp_celsius,,,,YES,,double precision,,,,
+notes,,,,YES,,text,,,,
+engineering_step_id,,,,YES,,integer,,,,engineering_steps
+southern_blot_label_type_id,,,,YES,,integer,,,,southern_blot_label_types
+gene_id,,,,YES,,integer,,,,genes
+storage_directory,,,,YES,,character varying,,255.0,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

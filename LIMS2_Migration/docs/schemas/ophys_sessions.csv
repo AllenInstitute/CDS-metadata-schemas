@@ -1,0 +1,30 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+storage_directory,,,,YES,,character varying,,255.0,,
+workflow_state,,,,YES,,character varying,,255.0,,
+specimen_id,,,,YES,,integer,,,,specimens
+isi_experiment_id,,,,YES,,integer,,,,isi_experiments
+parent_session_id,,,,YES,,integer,,,,ophys_sessions
+vasculature_image_id,,,,YES,,integer,,,,images
+targeted_structure_id,,,,YES,,integer,,,,structures
+imaging_depth_id,,,,YES,,integer,,,,imaging_depths
+temp_upload_directory,,,,YES,,character varying,,255.0,,
+date_of_acquisition,,,,YES,,timestamp without time zone,,,,
+equipment_id,,,,YES,,integer,,,,equipment
+operator_id,,,,YES,,integer,,,,users
+project_id,,,,YES,,integer,,,,projects
+reticle_image_id,,,,YES,,integer,,,,images
+ophys_z_stack_column_image_id,,,,YES,,integer,,,,images
+stimulus_name,,,,YES,,character varying,,255.0,,
+stimulus_warp,,,,YES,,character varying,,255.0,,
+stimulus_eye_position_x,,,,YES,,double precision,,,,
+stimulus_eye_position_y,,,,YES,,double precision,,,,
+screen_height,,,,YES,,double precision,,,,
+screen_width,,,,YES,,double precision,,,,
+screen_depth,,,,YES,,double precision,,,,
+eye_track_image_id,,,,YES,,integer,,,,images
+eye_tracking_id,,,,YES,,integer,,,,eye_trackings
+foraging_id,,,,YES,,character varying,,,,
+stim_delay,,,,YES,,double precision,,,,
+visual_behavior_supercontainer_id,,,,YES,,integer,,,,visual_behavior_supercontainers

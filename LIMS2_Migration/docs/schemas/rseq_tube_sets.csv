@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+name_from_vendor,,,,YES,,character varying,,255.0,,
+sent_to_vendor_at,,,,YES,,timestamp without time zone,,,,
+project_id,,,,YES,,integer,,,,projects
+storage_directory,,,,YES,,character varying,,255.0,,
+spreadsheet_uploaded_at,,,,YES,,timestamp without time zone,,,,
+well_known_file_id,,,,YES,,integer,,,,well_known_files
+workflow_state,,,,YES,,character varying,,255.0,,
+created_at,,,,YES,,timestamp without time zone,,,,
+file_source_id,,,,YES,,integer,,,,file_sources

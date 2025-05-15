@@ -1,0 +1,32 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,255.0,,
+probe_type_id,,,,NO,,integer,,,,probe_types
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+sequence_id,,,,YES,,integer,,,,sequences
+orientation_id,,,,YES,,integer,,,,orientations
+ivt_date,,,,YES,,timestamp without time zone,,,,
+ribo_green_concentration,,,,YES,,double precision,,,,
+concentration_after_dilution,,,,YES,,double precision,,,,
+volume_after_dilution,,,,YES,,double precision,,,,
+yield,,,,YES,,double precision,,,,
+bioanalyzer_size,,,,YES,,integer,,,,
+sag_comment,,,,YES,,character varying,,255.0,,
+coro_comment,,,,YES,,character varying,,255.0,,
+ulin_reaction,,,,YES,,double precision,,,,
+ngin_reaction,,,,YES,,double precision,,,,
+size_comment,,,,YES,,character varying,,255.0,,
+comment,,,,YES,,character varying,,255.0,,
+upload_report,,,,YES,,character varying,,255.0,,
+label,,,,YES,,character varying,,255.0,,
+project_id,,,,NO,,integer,,,,projects
+probe_result_id,,,,YES,,integer,,,,probe_results
+probe_template_id,,,,YES,,integer,,,,probe_templates
+probe_source_id,,,,YES,,integer,,,,probe_sources
+file_upload_id,,,,YES,,integer,,,,file_uploads
+pcr_product_single_id,,,,YES,,integer,,,,pcr_products
+pcr_product_first_id,,,,YES,,integer,,,,pcr_products
+pcr_product_second_id,,,,YES,,integer,,,,pcr_products
+agilent_upload,,,,YES,,boolean,,,,
+workflow_state,,,,NO,,character varying,,255.0,'passed'::character varying,

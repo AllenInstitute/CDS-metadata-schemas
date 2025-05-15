@@ -1,0 +1,9 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+message_source,,,,NO,,character varying,,64.0,,
+log_level,,,,NO,,character varying,,8.0,'INFO'::character varying,
+user_id,,,,YES,,integer,,,,users
+message_string,,,,NO,,text,,,,
+deleted,,,,YES,,boolean,,,FALSE,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,

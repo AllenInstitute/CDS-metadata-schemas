@@ -1,0 +1,23 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+row,,,,NO,,character varying,,15.0,,
+col,,,,NO,,integer,,,,
+quantity,,,,YES,,double precision,,,,
+image_series_id,,,,YES,,integer,,,,image_series
+plate_id,,,,NO,,integer,,,,plates
+rna_final_result_failed,,,,YES,,boolean,,,,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+position_on_plate,,,,YES,,integer,,,,
+name,,,,YES,,character varying,,255.0,,
+well_type_id,,,,YES,,integer,,,,well_types
+rna_integrity_number,,,,YES,,double precision,,,,
+concentration,,,,YES,,double precision,,,,
+quantity_unit_id,,,,YES,,integer,,,,
+concentration_unit_id,,,,YES,,integer,,,,
+labeling_rna_quantity,,,,YES,,double precision,,,,
+sample_id_string,,,,YES,,character varying,,255.0,,
+crna_hyb_failed,,,,YES,,boolean,,,,
+hyb_quantity,,,,YES,,double precision,,,,
+top_level_id,,,,YES,,integer,,,,top_levels
+differentiation_stage_instance_id,,,,YES,,integer,,,,differentiation_stage_instances

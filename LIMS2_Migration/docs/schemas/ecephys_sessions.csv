@@ -1,0 +1,22 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,,,
+stimulus_name,,,,YES,,character varying,,,,
+storage_directory,,,,YES,,character varying,,,,
+workflow_state,,,,YES,,character varying,,,,
+specimen_id,,,,YES,,integer,,,,specimens
+isi_experiment_id,,,,YES,,integer,,,,isi_experiments
+equipment_id,,,,YES,,integer,,,,equipment
+operator_id,,,,YES,,integer,,,,users
+qc_operator_id,,,,YES,,integer,,,,users
+project_id,,,,YES,,integer,,,,projects
+eye_tracking_id,,,,YES,,integer,,,,eye_trackings
+observatory_stimulus_config_id,,,,YES,,integer,,,,observatory_stimulus_configs
+date_of_acquisition,,,,YES,,timestamp without time zone,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+temp_upload_directory,,,,YES,,character varying,,,,
+published_at,,,,YES,,date,,,,
+habituation,,,,YES,,boolean,,,,
+use_optotagging,,,,YES,,boolean,,,,
+foraging_id,,,,YES,,character varying,,,,

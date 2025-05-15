@@ -1,0 +1,19 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+surgeon,,,,YES,,character varying,,255.0,,
+injection_quality,,,,YES,,character varying,,255.0,,
+days_post_injection,,,,YES,,integer,,,,
+targeted_injection_structure_id,,,,YES,,integer,,,,structures
+surgery_date,,,,YES,,timestamp without time zone,,,,
+injection_method_depricated,,,,YES,,character varying,,255.0,,
+pipette_type,,,,YES,,character varying,,255.0,,
+volume,,,,YES,,character varying,,255.0,,
+injection_number,,,,YES,,integer,,,,
+flow_rate,,,,YES,,character varying,,255.0,,
+workflow_state,,,,YES,,character varying,,255.0,,
+primary_injection_structure_id,,,,YES,,integer,,,,structures
+age_id,,,,YES,,integer,,,,ages
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+hemisphere_id,,,,YES,,integer,,,,hemispheres
+injection_method_id,,,,YES,,integer,,,,injection_methods

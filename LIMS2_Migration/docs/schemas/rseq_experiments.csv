@@ -1,0 +1,16 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+rseq_tube_id,,,,YES,,integer,,,,rseq_tubes
+target_read_depth_millions,,,,YES,,integer,,,,
+sequencer_lane,,,,YES,,character varying,,255.0,,
+sequenced_quantity_pmol,,,,YES,,double precision,,,,
+phix_quantity_pmol,,,,YES,,double precision,,,,
+percent_reads_pass_filter,,,,YES,,double precision,,,,
+actual_read_length_bp,,,,YES,,integer,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+need_demultiplex,,,,YES,,boolean,,,FALSE,
+percent_phix_reads,,,,YES,,double precision,,,,
+sequencing_instrument_id,,,,YES,,integer,,,,sequencing_instruments
+cluster_density_thousands_per_mm2,,,,YES,,double precision,,,,
+vendor_read_count,,,,YES,,bigint,,,,

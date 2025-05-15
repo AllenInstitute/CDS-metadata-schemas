@@ -1,0 +1,28 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,255.0,,
+organism_id,,,,NO,,integer,,,,organisms
+height,,,,YES,,double precision,,,,
+weight,,,,YES,,double precision,,,,
+gender_id,,,,YES,,integer,,,,genders
+race_id,,,,YES,,integer,,,,races
+handedness_id,,,,YES,,integer,,,,handednesses
+education_level_id,,,,YES,,integer,,,,education_levels
+created_by,,,,YES,,character varying,,255.0,,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_by,,,,YES,,character varying,,255.0,,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+death_manner_id,,,,YES,,integer,,,,death_manners
+death_cause_id,,,,YES,,integer,,,,death_causes
+death_on,,,,YES,,timestamp without time zone,,,,
+age_id,,,,YES,,integer,,,,ages
+external_donor_name,,,,YES,,character varying,,32.0,,
+induction_method,,,,YES,,character varying,,255.0,,
+transgenic_induction_method_id,,,,YES,,integer,,,,transgenic_induction_methods
+date_of_birth,,,,YES,,timestamp without time zone,,,,
+primary_tissue_source_id,,,,YES,,integer,,,,primary_tissue_sources
+baseline_weight_g,,,,YES,,double precision,,,,
+data,,,,YES,,jsonb,,,,
+full_genotype,,,,YES,,character varying,,255.0,,
+occupation_id,,,,YES,,integer,,,,occupations
+water_restricted,,,,NO,,boolean,,,FALSE,

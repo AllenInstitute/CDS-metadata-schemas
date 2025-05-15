@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+parent_id,,,,YES,,integer,,,,
+id,,,,YES,,integer,,,,
+struct_id,,,,YES,,integer,,,,
+acronym,,,,YES,,character varying,,255.0,,
+name,,,,YES,,character varying,,255.0,,
+structure_graph_id,,,,YES,,integer,,,,
+st_order,,,,YES,,integer,,,,
+st_level,,,,YES,,integer,,,,
+color,,,,YES,,text,,,,
+child_count,,,,YES,,bigint,,,,
+path,,,,YES,,character varying,,,,
