@@ -1,0 +1,10 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+probe_template_id,,,,NO,,integer,,,,probe_templates
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+base_q_passfail,,,,YES,,boolean,,,,
+for_blast_score,,,,YES,,double precision,,,,
+sp6_blast_score,,,,YES,,double precision,,,,
+for_blast_pass,,,,YES,,boolean,,,,
+sp6_blast_pass,,,,YES,,boolean,,,,

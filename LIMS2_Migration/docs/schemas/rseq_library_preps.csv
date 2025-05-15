@@ -1,0 +1,32 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+rseq_library_prep_set_id,,,,YES,,integer,,,,rseq_library_prep_sets
+input_id,,,,YES,,integer,,,,
+input_type,,,,YES,,character varying,,255.0,,
+input_quantity_ng,,,,YES,,double precision,,,,
+rseq_library_prep_method_id,,,,YES,,integer,,,,rseq_library_prep_methods
+paired_end,,,,YES,,boolean,,,,
+read1_type,,,,YES,,character varying,,255.0,,
+read2_type,,,,YES,,character varying,,255.0,,
+rseq_library_prep_quantity_ul,,,,YES,,double precision,,,,
+quantification1_method_id,,,,YES,,integer,,,,rseq_library_quantification_methods
+quantification1_ng,,,,YES,,double precision,,,,
+quantification1_nm,,,,YES,,double precision,,,,
+quantification2_method_id,,,,YES,,integer,,,,rseq_library_quantification_methods
+quantification2_ng,,,,YES,,double precision,,,,
+quantification2_nm,,,,YES,,double precision,,,,
+run_date,,,,YES,,timestamp without time zone,,,,
+fail,,,,YES,,boolean,,,,
+notes,,,,YES,,character varying,,255.0,,
+sequencing_primer1_id,,,,YES,,integer,,,,rseq_oligos
+sequencing_primer2_id,,,,YES,,integer,,,,rseq_oligos
+read1_index_id,,,,YES,,integer,,,,rseq_oligos
+read2_index_id,,,,YES,,integer,,,,rseq_oligos
+avg_size_bp,,,,YES,,integer,,,,
+quantification_fmol,,,,YES,,double precision,,,,
+percent_nucleosome_free_analyzer,,,,YES,,double precision,,,,
+percent_mononucleosome_analyzer,,,,YES,,double precision,,,,
+percent_dinucleosome_analyzer,,,,YES,,double precision,,,,
+percent_multinucleated_fragments_analyzer,,,,YES,,double precision,,,,
+used_input_count,,,,YES,,integer,,,,

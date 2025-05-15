@@ -1,0 +1,19 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+rseq_experiment_id,,,,YES,,integer,,,,rseq_experiments
+rseq_library_prep_id,,,,YES,,integer,,,,rseq_library_preps
+sample_id,,,,YES,,integer,,,,
+sample_type,,,,YES,,character varying,,255.0,,
+failed,,,,YES,,boolean,,,,
+notes,,,,YES,,character varying,,255.0,,
+comments,,,,YES,,character varying,,255.0,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+fastq_file_line_count,,,,YES,,integer,,,,
+organism_id_for_alignment,,,,YES,,integer,,,,organisms
+vendor_read_count,,,,YES,,bigint,,,,
+name_from_vendor,,,,YES,,character varying,,255.0,,
+cell_capture,,,,YES,,integer,,,,
+dismiss,,,,YES,,boolean,,,FALSE,
+archive,,,,YES,,boolean,,,FALSE,

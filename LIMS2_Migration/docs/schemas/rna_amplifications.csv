@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+rna_amplification_set_id,,,,YES,,integer,,,,rna_amplification_sets
+name,,,,YES,,character varying,,255.0,,
+rna_amplification_method_id,,,,YES,,integer,,,,rna_amplification_methods
+umi_length_nt,,,,YES,,integer,,,,
+cycles,,,,YES,,integer,,,,
+ercc_pool_ul,,,,YES,,double precision,,,,
+amplified_quantity_ng,,,,YES,,double precision,,,,
+run_date,,,,YES,,timestamp without time zone,,,,
+failed,,,,YES,,boolean,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+ercc_diluted_pool_id,,,,YES,,integer,,,,ercc_diluted_pools
+percent_cdna_longer_than_400bp,,,,YES,,double precision,,,,
+load_name,,,,YES,,character varying,,,,
+port_well,,,,YES,,character varying,,,,
+load_date,,,,YES,,timestamp without time zone,,,,

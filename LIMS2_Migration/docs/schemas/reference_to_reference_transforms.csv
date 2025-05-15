@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+from_reference_space_id,,,,YES,,integer,,,,reference_spaces
+to_reference_space_id,,,,YES,,integer,,,,reference_spaces
+t_00,,,,YES,,double precision,,,,
+t_01,,,,YES,,double precision,,,,
+t_02,,,,YES,,double precision,,,,
+t_03,,,,YES,,double precision,,,,
+t_04,,,,YES,,double precision,,,,
+t_05,,,,YES,,double precision,,,,
+t_06,,,,YES,,double precision,,,,
+t_07,,,,YES,,double precision,,,,
+t_08,,,,YES,,double precision,,,,
+t_09,,,,YES,,double precision,,,,
+t_10,,,,YES,,double precision,,,,
+t_11,,,,YES,,double precision,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

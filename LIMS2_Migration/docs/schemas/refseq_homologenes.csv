@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+homologene_group_id,,,,YES,,integer,,,,
+taxonomy_id,,,,YES,,integer,,,,
+gene_id,,,,YES,,integer,,,,
+gene_symbol,,,,YES,,character varying,,255.0,,
+gi,,,,YES,,integer,,,,
+accession_number,,,,YES,,character varying,,255.0,,
