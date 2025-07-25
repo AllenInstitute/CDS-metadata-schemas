@@ -2,7 +2,7 @@
 name: Ontology Term Request
 about: Use this form to make an ontology term request.
 title: OTR
-labels: ''
+labels: new ontology term
 assignees: ''
 
 ---
