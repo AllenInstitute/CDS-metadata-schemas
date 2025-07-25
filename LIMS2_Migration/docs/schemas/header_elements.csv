@@ -1,0 +1,10 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+controller_name,,,,YES,,character varying,,255.0,,
+display_name,,,,YES,,character varying,,255.0,,
+unique_identifier,,,,YES,,character varying,,255.0,,
+action,,,,YES,,character varying,,255.0,,
+element_type,,,,YES,,character varying,,255.0,,
+element_order,,,,YES,,integer,,,,
+table_order,,,,YES,,integer,,,,
+in_use,,,,YES,,boolean,,,,

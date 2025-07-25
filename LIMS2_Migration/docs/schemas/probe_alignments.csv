@@ -1,0 +1,13 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+probe_id,,,,NO,,integer,,,,probes
+num_ntides,,,,YES,,integer,,,,
+identity,,,,YES,,double precision,,,,
+score,,,,YES,,double precision,,,,
+sequence_source,,,,YES,,character varying,,255.0,,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+probe_align_start,,,,YES,,integer,,,,
+probe_align_stop,,,,YES,,integer,,,,
+transcript_version_align_start,,,,YES,,integer,,,,
+transcript_version_align_stop,,,,YES,,integer,,,,

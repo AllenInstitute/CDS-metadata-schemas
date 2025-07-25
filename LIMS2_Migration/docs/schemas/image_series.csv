@@ -1,0 +1,20 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+position,,,,YES,,integer,,,,
+qc_date,,,,YES,,timestamp without time zone,,,,
+expression,,,,NO,,boolean,,,FALSE,
+run_group_id,,,,YES,,integer,,,,run_groups
+specimen_id,,,,YES,,integer,,,,specimens
+project_id,,,,YES,,integer,,,,projects
+published_at,,,,YES,,date,,,,
+lims1_id,,,,YES,,integer,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+name,,,,YES,,character varying,,255.0,,
+workflow_state,,,,YES,,character varying,,255.0,,
+alignment3d_id,,,,YES,,integer,,,,alignment3ds
+equalization_id,,,,YES,,integer,,,,equalizations
+type,,,,YES,,character varying,,255.0,'ImageSeries'::character varying,
+is_stack,,,,YES,,boolean,,,,
+archive_dir,,,,YES,,character varying,,255.0,,

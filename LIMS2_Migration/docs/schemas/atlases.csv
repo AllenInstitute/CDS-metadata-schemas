@@ -1,0 +1,13 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+title,,,,YES,,character varying,,255.0,,
+specimen_id,,,,YES,,integer,,,,specimens
+xyz_sort,,,,YES,,character varying,,255.0,,
+treatment_id,,,,YES,,integer,,,,treatments
+graph_id,,,,YES,,integer,,,,structure_graphs
+init_select,,,,YES,,integer,,,,structures
+init_reveal,,,,YES,,integer,,,,structure_sets
+description,,,,YES,,character varying,,255.0,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+image_type_id,,,,YES,,integer,,,,image_types

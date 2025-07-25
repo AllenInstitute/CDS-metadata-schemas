@@ -1,0 +1,13 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+rseq_size_selection_set_id,,,,YES,,integer,,,,rseq_size_selection_sets
+date_run,,,,YES,,timestamp without time zone,,,,
+min_bp,,,,YES,,integer,,,,
+max_bp,,,,YES,,integer,,,,
+output_library_quantity_ul,,,,YES,,double precision,,,,
+output_library_concentration1_pm,,,,YES,,double precision,,,,
+output_library_concentration2_pm,,,,YES,,double precision,,,,
+failed,,,,YES,,boolean,,,,
+output_library_quantification1_method_id,,,,YES,,integer,,,,rseq_library_quantification_methods
+output_library_quantification2_method_id,,,,YES,,integer,,,,rseq_library_quantification_methods

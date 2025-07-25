@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+cell_temp_celsius,,,,YES,,double precision,,,,
+pcr_quantity,,,,YES,,integer,,,,
+qssoda5_activity,,,,YES,,double precision,,,,
+qssoda3_activity,,,,YES,,double precision,,,,
+has_ssoda5activity,,,,YES,,boolean,,,,
+has_ssoda3activity,,,,YES,,boolean,,,,
+cel1activity,,,,YES,,double precision,,,,
+ssodn_name,,,,YES,,character varying,,255.0,,
+notes,,,,YES,,text,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+activity_cell_id,,,,YES,,integer,,,,activity_cells
+cel1_nuclease_id,,,,YES,,integer,,,,cel1_nucleases
+cell_additive_id,,,,YES,,integer,,,,cell_additives
+ssodn_sequence_id,,,,YES,,integer,,,,sequences
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+stem_cell_line_id,,,,YES,,integer,,,,stem_cell_lines
+description,,,,YES,,text,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+transfection_date,,,,YES,,timestamp without time zone,,,,
+condition_quantity,,,,YES,,integer,,,,
+colony_count,,,,YES,,integer,,,,
+failed,,,,YES,,boolean,,,,
+is_colony_pooled,,,,YES,,boolean,,,,
+colonies_picked_quantity,,,,YES,,integer,,,,
+is_sorted,,,,YES,,boolean,,,,
+sort_description,,,,YES,,text,,,,
+sort_analysis_percent,,,,YES,,double precision,,,,
+is_single_cell_cloned,,,,YES,,boolean,,,,
+single_cell_clone_quantity,,,,YES,,integer,,,,
+storage_directory,,,,YES,,character varying,,255.0,,

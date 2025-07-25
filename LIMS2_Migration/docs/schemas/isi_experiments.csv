@@ -1,0 +1,22 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+storage_directory,,,,YES,,character varying,,255.0,,
+workflow_state,,,,YES,,character varying,,255.0,,
+specimen_id,,,,YES,,integer,,,,specimens
+temp_upload_directory,,,,YES,,character varying,,255.0,,
+date_of_acquisition,,,,YES,,timestamp without time zone,,,,
+equipment_id,,,,YES,,integer,,,,equipment
+operator_id,,,,YES,,integer,,,,users
+qc_operator_id,,,,YES,,integer,,,,users
+project_id,,,,YES,,integer,,,,projects
+manual_correction_only,,,,YES,,boolean,,,FALSE,
+vasculature_image_id,,,,YES,,integer,,,,images
+retinotopy_vertical_image_id,,,,YES,,integer,,,,images
+retinotopy_horizontal_image_id,,,,YES,,integer,,,,images
+sign_map_image_id,,,,YES,,integer,,,,images
+isi_imaging_plane_image_id,,,,YES,,integer,,,,images
+isi_overlay_image_id,,,,YES,,integer,,,,images
+eccentricity_retinotopic_zero_image_id,,,,YES,,integer,,,,images
+eccentricity_v_one_centroid_image_id,,,,YES,,integer,,,,images
+target_map_image_id,,,,YES,,integer,,,,images

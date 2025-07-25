@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+storage_directory,,,,YES,,character varying,,255.0,,
+differentiation_id,,,,YES,,integer,,,,differentiations
+failed,,,,YES,,boolean,,,,
+differentiation_collection_day_id,,,,YES,,integer,,,,differentiation_collection_days
+task_flow_id,,,,YES,,integer,,,,task_flows
+facs_id,,,,YES,,integer,,,,facs

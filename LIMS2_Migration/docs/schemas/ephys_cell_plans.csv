@@ -1,0 +1,9 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+ephys_roi_plan_id,,,,YES,,integer,,,,ephys_roi_plans
+ephys_pipette_type_id,,,,YES,,integer,,,,ephys_pipette_types
+ephys_stimulus_set_group_id,,,,YES,,integer,,,,ephys_stimulus_set_groups
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+cell_description_id,,,,YES,,integer,,,,cell_descriptions

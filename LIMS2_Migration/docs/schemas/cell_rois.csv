@@ -1,0 +1,16 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+cell_specimen_id,,,,YES,,integer,,,,specimens
+ophys_experiment_id,,,,YES,,integer,,,,
+x,,,,YES,,integer,,,,
+y,,,,YES,,integer,,,,
+width,,,,YES,,integer,,,,
+height,,,,YES,,integer,,,,
+valid_roi,,,,YES,,boolean,,,,
+mask_matrix,,,,YES,,ARRAY,,,,
+max_correction_up,,,,YES,,double precision,,,,
+max_correction_down,,,,YES,,double precision,,,,
+max_correction_right,,,,YES,,double precision,,,,
+max_correction_left,,,,YES,,double precision,,,,
+mask_image_plane,,,,YES,,integer,,,,
+ophys_cell_segmentation_run_id,,,,YES,,integer,,,,ophys_cell_segmentation_runs

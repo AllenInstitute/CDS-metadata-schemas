@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+post_tc_analysis_id,,,,YES,,integer,,,,post_tc_analyses
+damage_type_id,,,,YES,,integer,,,,damage_types
+damage_hemisphere_id,,,,YES,,integer,,,,damage_hemispheres
+damage_assessment_id,,,,YES,,integer,,,,damage_assessments
+apex_of_abnormality,,,,YES,,integer,,,,
+number_of_slides_affected,,,,YES,,integer,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+first_slide_affected,,,,YES,,integer,,,,
+last_slide_affected,,,,YES,,integer,,,,

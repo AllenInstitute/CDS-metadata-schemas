@@ -1,0 +1,13 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+center_x_mm,,,,YES,,double precision,,,,
+center_y_mm,,,,YES,,double precision,,,,
+center_z_mm,,,,YES,,double precision,,,,
+rotation_x_deg,,,,YES,,double precision,,,,
+rotation_y_deg,,,,YES,,double precision,,,,
+rotation_z_deg,,,,YES,,double precision,,,,
+equipment_id,,,,NO,,integer,,,,
+observatory_experiment_config_type_id,,,,YES,,integer,,,,observatory_experiment_config_types
+active_date,,,,YES,,timestamp without time zone,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

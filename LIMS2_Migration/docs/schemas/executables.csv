@@ -1,0 +1,17 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,255.0,,
+arguments,,,,YES,,text,,,,
+job_queue_id,,,,NO,,integer,,,,job_queues
+scanner_id,,,,YES,,integer,,,,scanners
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+pbs_queue,,,,YES,,character varying,,255.0,,
+structure_id,,,,YES,,integer,,,,structures
+priority,,,,NO,,integer,,,0,
+neuronal_model_template_id,,,,YES,,integer,,,,neuronal_model_templates
+organism_id,,,,YES,,integer,,,,organisms
+job_options,,,,YES,,character varying,,,,
+job_time,,,,NO,,character varying,,,'--time=1:00:00'::character varying,
+cluster_executable,,,,NO,,text,,,'/dev/null/'::text,
+use_signal_trap,,,,NO,,boolean,,,FALSE,

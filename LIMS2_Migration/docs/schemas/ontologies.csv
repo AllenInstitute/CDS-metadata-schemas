@@ -1,0 +1,10 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+organism_id,,,,YES,,integer,,,,organisms
+superseded_by_id,,,,YES,,integer,,,,ontologies
+description,,,,YES,,character varying,,255.0,,
+abbreviation,,,,YES,,character varying,,255.0,,
+locked,,,,NO,,boolean,,,FALSE,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

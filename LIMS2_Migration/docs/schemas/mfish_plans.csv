@@ -1,0 +1,13 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,,,
+roi,,,,YES,,character varying,,,,
+type,,,,YES,,character varying,,,,
+cancelled,,,,YES,,boolean,,,FALSE,
+project_id,,,,YES,,integer,,,,projects
+parent_specimen_id,,,,YES,,integer,,,,specimens
+storage_directory,,,,YES,,character varying,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+production,,,,YES,,boolean,,,TRUE,
+mfish_experiment_plan_id,,,,YES,,integer,,,,mfish_plans

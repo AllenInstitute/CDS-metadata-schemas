@@ -1,0 +1,17 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,text,,,,
+type,,,,YES,,text,,,,
+targeted_structure_id,,,,YES,,integer,,,,structures
+angle_deg,,,,YES,,integer,,,,
+coordinates_ap,,,,YES,,double precision,,,,
+coordinates_dv,,,,YES,,double precision,,,,
+coordinates_ml,,,,YES,,double precision,,,,
+registration_point_id,,,,YES,,integer,,,,registration_points
+instructions,,,,YES,,text,,,,
+current_ua,,,,YES,,integer,,,,
+duration_min,,,,YES,,integer,,,,
+rate_nl_min,,,,YES,,integer,,,,
+volume_nl,,,,YES,,integer,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

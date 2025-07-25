@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+specimen_id,,,,YES,,integer,,,,specimens
+image_series_id,,,,YES,,integer,,,,image_series
+sub_image_id,,,,YES,,integer,,,,sub_images
+specimen_tissue_index,,,,YES,,integer,,,,
+group_label_id,,,,YES,,integer,,,,
+avg_graphic_object_id,,,,YES,,integer,,,,avg_graphic_objects
+structure_id,,,,YES,,integer,,,,structures
+sub_image_cx,,,,YES,,integer,,,,
+sub_image_cy,,,,YES,,integer,,,,
+cx,,,,YES,,integer,,,,
+cy,,,,YES,,integer,,,,
+mri_cx,,,,YES,,integer,,,,
+mri_cy,,,,YES,,integer,,,,
+mri_cz,,,,YES,,integer,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+cortex_layer_id,,,,YES,,integer,,,,structures

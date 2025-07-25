@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+donor_id,,,,NO,,integer,,,,donors
+recorded_by_id,,,,NO,,integer,,,,users
+recorded_at,,,,NO,,timestamp without time zone,,,,
+instrumentation_detail,,,,YES,,jsonb,,,,
+notes,,,,YES,,text,,,,
+target_weight_fraction,,,,YES,,double precision,,,,
+water_delivered_total_ml,,,,YES,,double precision,,,,
+water_supplement_ml,,,,YES,,double precision,,,,
+weight_g,,,,YES,,double precision,,,,
+water_earned_ml,,,,YES,,double precision,,,,

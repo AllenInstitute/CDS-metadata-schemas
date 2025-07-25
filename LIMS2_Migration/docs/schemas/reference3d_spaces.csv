@@ -1,0 +1,16 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+grayscale_volume_path,,,,YES,,character varying,,255.0,,
+annotation_volume_path,,,,YES,,character varying,,255.0,,
+x_max,,,,YES,,double precision,,,,
+y_max,,,,YES,,double precision,,,,
+z_max,,,,YES,,double precision,,,,
+um_per_pixel,,,,YES,,double precision,,,,
+version,,,,YES,,character varying,,255.0,,
+superseded_by_id,,,,YES,,integer,,,,reference3d_spaces
+organism_id,,,,YES,,integer,,,,organisms
+ontology_id,,,,YES,,integer,,,,ontologies
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+published_at,,,,YES,,timestamp without time zone,,,,

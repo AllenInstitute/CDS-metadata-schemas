@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+transcript_id,,,,NO,,integer,,,,transcripts
+version_number,,,,NO,,integer,,,,
+sequence_id,,,,YES,,integer,,,,sequences
+sequence_is_authoritative,,,,YES,,boolean,,,FALSE,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+gi,,,,YES,,integer,,,,
+agilent_upload,,,,YES,,boolean,,,,
+ncbi_sequence_status_id,,,,YES,,integer,,,,ncbi_sequence_statuses

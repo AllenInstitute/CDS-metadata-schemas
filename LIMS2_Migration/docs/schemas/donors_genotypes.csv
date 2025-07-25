@@ -1,0 +1,6 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+donor_id,,,,YES,,integer,,,,donors
+genotype_id,,,,YES,,integer,,,,genotypes
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+locus_id,,,,YES,,integer,,,,loci
+order,,,,YES,,integer,,,,

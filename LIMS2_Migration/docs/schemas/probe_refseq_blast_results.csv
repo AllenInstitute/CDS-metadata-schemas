@@ -1,0 +1,24 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+probe_id,,,,NO,,integer,,,,probes
+result_list_order,,,,NO,,integer,,,,
+blast_db_file_id,,,,NO,,integer,,,,blast_db_files
+transcript_version_id,,,,YES,,integer,,,,transcript_versions
+sgi,,,,YES,,integer,,,,
+qstart,,,,YES,,integer,,,,
+qend,,,,YES,,integer,,,,
+subj_start,,,,YES,,integer,,,,
+subj_end,,,,YES,,integer,,,,
+evalue,,,,YES,,double precision,,,,
+bitscore,,,,YES,,integer,,,,
+score,,,,YES,,integer,,,,
+length,,,,YES,,integer,,,,
+pident,,,,YES,,double precision,,,,
+nident,,,,YES,,integer,,,,
+mismatch,,,,YES,,integer,,,,
+positive,,,,YES,,integer,,,,
+gaps,,,,YES,,integer,,,,
+gene_id,,,,YES,,integer,,,,genes
+ppos,,,,YES,,double precision,,,,
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,

@@ -1,0 +1,3 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+job_transition_id,,,,NO,,integer,,,,job_transitions
+plane_of_section_id,,,,NO,,integer,,,,plane_of_sections

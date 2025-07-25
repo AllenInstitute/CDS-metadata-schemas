@@ -1,0 +1,14 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,255.0,,
+description,,,,YES,,character varying,,255.0,,
+barcode,,,,NO,,character varying,,10.0,,
+plate_type_id,,,,NO,,integer,,,,plate_types
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+plate_usage_id,,,,NO,,integer,,,,plate_usages
+date_uploaded,,,,YES,,timestamp without time zone,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+workflow_state,,,,NO,,character varying,,255.0,'creating'::character varying,
+vendor_batch_id_string,,,,YES,,character varying,,255.0,,
+temp_upload_directory,,,,YES,,character varying,,255.0,,

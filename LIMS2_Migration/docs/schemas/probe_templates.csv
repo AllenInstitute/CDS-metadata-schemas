@@ -1,0 +1,24 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+created_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+updated_at,,,,NO,,timestamp without time zone,,,('now'::text)::date,
+probe_template_type_id,,,,NO,,integer,,,,probe_template_types
+forward_tag_id,,,,YES,,integer,,,,template_tags
+reverse_tag_id,,,,YES,,integer,,,,template_tags
+transcript_version_id,,,,YES,,integer,,,,transcript_versions
+forward_primer_id,,,,YES,,integer,,,,primers
+reverse_primer_id,,,,YES,,integer,,,,primers
+nested_reverse_primer_id,,,,YES,,integer,,,,primers
+product_size,,,,YES,,integer,,,,
+target_primer_length,,,,YES,,integer,,,,
+pair_penalty,,,,YES,,double precision,,,,
+pair_compl_any,,,,YES,,double precision,,,,
+pair_compl_end,,,,YES,,double precision,,,,
+predicted_sequence_id,,,,YES,,integer,,,,sequences
+selected_region_sequence_id,,,,YES,,integer,,,,sequences
+comment,,,,YES,,character varying,,255.0,,
+primer_report_id,,,,YES,,integer,,,,primer_reports
+probe_template_batch_id,,,,YES,,integer,,,,probe_template_batches
+clone_id,,,,YES,,integer,,,,clones
+file_upload_id,,,,YES,,integer,,,,file_uploads
+agilent_upload,,,,YES,,boolean,,,,

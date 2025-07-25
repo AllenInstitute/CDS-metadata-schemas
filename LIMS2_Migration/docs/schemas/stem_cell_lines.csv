@@ -1,0 +1,26 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+culture_condition_id,,,,YES,,integer,,,,culture_conditions
+specimen_id,,,,YES,,integer,,,,specimens
+parent_id,,,,YES,,integer,,,,stem_cell_lines
+name,,,,NO,,character varying,,255.0,,
+is_embryonic_stem_cell_line,,,,YES,,boolean,,,FALSE,
+vial_label,,,,YES,,character varying,,255.0,,
+passage_number,,,,YES,,integer,,,,
+pubmed_id,,,,YES,,integer,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+url,,,,YES,,character varying,,255.0,,
+notes,,,,YES,,text,,,,
+parent_cell_bank_id,,,,YES,,integer,,,,cell_banks
+pluripotency_marker_icc_state_id,,,,YES,,integer,,,,stem_cell_line_states
+pluripotency_marker_immunoflow_state_id,,,,YES,,integer,,,,stem_cell_line_states
+sterility_bacterial_fungi_mycoplasma_state_id,,,,YES,,integer,,,,stem_cell_line_states
+sterility_mycoplasma_state_id,,,,YES,,integer,,,,stem_cell_line_states
+pathogen_mouse_state_id,,,,YES,,integer,,,,stem_cell_line_states
+pathogen_human_state_id,,,,YES,,integer,,,,stem_cell_line_states
+genome_intactness_state_id,,,,YES,,integer,,,,stem_cell_line_states
+reprogramming_factor_cleaned_state_id,,,,YES,,integer,,,,stem_cell_line_states
+reprogramming_method_id,,,,YES,,integer,,,,reprogramming_methods
+internal_name,,,,YES,,character varying,,255.0,,
+vial_location,,,,YES,,character varying,,255.0,,
