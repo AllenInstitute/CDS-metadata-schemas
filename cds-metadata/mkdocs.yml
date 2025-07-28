@@ -1,4 +1,7 @@
-site_name: Community Data Standards Documentation
+site_name: Community Data Standards Metadata Schema Documentation
+site_url: https://cds-metadata.readthedocs.io/
+site_description: Documentation for the Community Data Standards Metadata Schema, providing guidelines and standards for metadata management
+site_author: Community Data Standards Team
 theme: readthedocs
 markdown_extensions:
   - toc:
