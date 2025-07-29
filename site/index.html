@@ -43,9 +43,17 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href=".">Home</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
+    <li class="toctree-l2"><a class="reference internal" href="#table-of-contents">Table of Contents</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
+    <li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#schemas">Schemas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#how-to-contribute">How to Contribute</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#terminology">Terminology</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#status-board">Status Board</a>
     </li>
     </ul>
                 </li>
@@ -155,53 +163,64 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs<a class="headerlink" href="#welcome-to-mkdocs" title="Permanent link">&para;</a></h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
+                <h1 id="community-data-standards-metadata-schemas-and-documentation">Community Data Standards Metadata Schemas and Documentation<a class="headerlink" href="#community-data-standards-metadata-schemas-and-documentation" title="Permanent link">&para;</a></h1>
+<p>This is the repository for metadata schemas as used by the Community Data Standards Team (CDS). This repository contains files, documents, and code essential for CDS metadata curation.</p>
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><a href="#community-data-standards-metadata-schemas-and-documentation">Community Data Standards Metadata Schemas and Documentation</a></li>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#schemas">Schemas</a></li>
+<li><a href="#how-to-contribute">How to Contribute</a></li>
+<li><a href="#terminology">Terminology</a></li>
+<li><a href="#status-board">Status Board</a></li>
 </ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    getting-started.md  # A sample page.
-    faq.md  # A sample FAQ page.
-    contact.md  # A sample contact page.
-    Best Practices
-        overview.md  # An overview of best practices.
-        practice-1.md  # A sample best practices page.
-        practice-2.md  # Another sample best practices page.
-    Case Studies
-        overview.md  # An overview of case studies.
-        case-study-1.md  # A sample case study.
-        case-study-2.md  # Another sample case study.
-    Controlled Vocabularies
-        overview.md  # An overview of controlled vocabularies.
-        vocabulary-1.md  # A sample controlled vocabulary.
-        vocabulary-2.md  # Another sample controlled vocabulary.
-    Resources
-        overview.md  # An overview of resources.
-        resource-1.md  # A sample resource.
-        resource-2.md  # Another sample resource.
-    Standards
-        Data Standards
-            overview.md  # An overview of data standards.
-            standard-1.md  # A sample data standard.
-            standard-2.md  # Another sample data standard.
-        Metadata Standards
-            overview.md  # An overview of metadata standards.
-            standard-1.md  # A sample metadata standard.
-            standard-2.md  # Another sample metadata standard.
-        overview.md  # An overview of standards.
-    Tools
-        overview.md  # An overview of tools.
-        tool-1.md  # A sample tool.
-        tool-2.md  # Another sample tool.
-</code></pre>
+<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
+<p>Documentation that supports development, implementation, standarization, and description of CDS metadata can be found in the <code>docs/</code> directory.</p>
+<h2 id="schemas">Schemas<a class="headerlink" href="#schemas" title="Permanent link">&para;</a></h2>
+<p>Metadata schemas are located in the <code>schemas/</code> directory. Each metadata schema is accompanied by a README document that contains descriptive information about that schema.</p>
+<p>Each metadata schema is reviewed and standardized by the CDS team. Documentation of this process can be found <a href="https://alleninstitute.atlassian.net/wiki/x/E4DNJw">here</a>.</p>
+<h2 id="how-to-contribute">How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permanent link">&para;</a></h2>
+<p>The CDS team supports community input and collaboration in developing, maintaining, and updating metadata schemas and documents. You are welcome to suggest updates or additions to the metadata standards by <a href="https://github.com/AllenInstitute/CDS-metadata-schemas/issues/new">creating GitHub issues</a> or emailing <a href="data.curation@alleninstitute.org">data.curation@alleninstitute.org</a>.</p>
+<h2 id="terminology">Terminology<a class="headerlink" href="#terminology" title="Permanent link">&para;</a></h2>
+<p>Metadata</p>
+<p><strong>Metadata</strong> is the human and machine-readable descriptive information about a data resource that is necessary for tracking and using the data it describes. In the context of CDS, metadata is descriptive information that is necessary for understanding data at the Allen Institute for Brain Science. This information is provided in a structure defined by the schema.</p>
+<p>A <strong>schema</strong> is a human and machine-readable file-based specification for metadata. A specification defines the metadata structure and fields, including field name, description, format, and cardinality.</p>
+<p>An <strong>owner</strong> of a schema is the person or group of persons that assume responsibility for its creation, documentation, and movement through the metadata approval process.</p>
+<p><strong>Contributors</strong> are any members of CDS, Allen Institute for Brain Science or scientific community who suggest, contribute, or review updates to the metadata schemas.</p>
+<p><strong>Submitters</strong> are any members of CDS, Allen Institute for Brain Science or scientific community who submit data or metadata.</p>
+<p><strong>Committers</strong> are any members of CDS team or the Allen Institute for Brain Science with commit privileges to the CDS-metadata-schemas GitHub repo.</p>
+<p>A metadata schema has the status of <strong>submitted</strong> if and only if it has been uploaded as an attachment to an issue ticket on the CDS-metadata-schemas issue tracker.</p>
+<p>A metadata schema has the status of <strong>under CDS review</strong> if and only if it has the status of submitted and the CDS team has acknowledged its receipt and has assigned reviewers to the schema.</p>
+<p>A metadata schema has the status of <strong>under revision by owner</strong> if and only if it has the status of under CDS review and the owner has received recommended changes from reviewers.</p>
+<p>A metadata schema has the status of <strong>accepted by CDS</strong> if and only if it has been under CDS review and CDS has deemed there are no outstanding necessary changes to the schema.</p>
+<p>A metadata schema has the status of <strong>endorsed CDS standard</strong> if and only if it has been accepted by CDS team, and successfully completed the CDS data standards process.</p>
+<h2 id="status-board">Status Board<a class="headerlink" href="#status-board" title="Permanent link">&para;</a></h2>
+<p>Here are the CDS metadata schemas and their statuses.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Schema</th>
+<th align="left">Version</th>
+<th align="left">Release</th>
+<th align="left">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">[Some Metadata Schema]</td>
+<td align="left">[version]</td>
+<td align="left">[2025-06-27]</td>
+<td align="left">none</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div><footer>
@@ -249,5 +268,5 @@ docs/
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2025-07-29 20:41:37.266358+00:00
+Build Date UTC : 2025-07-29 20:57:05.725181+00:00
 -->
