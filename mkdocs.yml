@@ -1,5 +1,5 @@
 site_name: Community Data Standards Metadata Schema Documentation
-site_url: https://cds-metadata.readthedocs.io/
+site_url: https://alleninstitute.github.io/CDS-metadata-schemas/
 site_description: Documentation for the Community Data Standards Metadata Schema, providing guidelines and standards for metadata management
 site_author: Community Data Standards Team
 theme: readthedocs
