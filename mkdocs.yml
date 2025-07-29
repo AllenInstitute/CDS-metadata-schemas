@@ -1,0 +1,44 @@
+site_name: Community Data Standards Metadata Schema Documentation
+site_url: https://cds-metadata.readthedocs.io/
+site_description: Documentation for the Community Data Standards Metadata Schema, providing guidelines and standards for metadata management
+site_author: Community Data Standards Team
+theme: readthedocs
+markdown_extensions:
+  - toc:
+      permalink: True
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Standards:
+      - Overview: Standards/overview.md
+      - Data Standards:
+          - Introduction: Standards/Data Standards/introduction.md
+          - Standard 1: Standards/Data Standards/standard-1.md
+          - Standard 2: Standards/Data Standards/standard-2.md
+          - Standard 3: Standards/Data Standards/standard-3.md
+      - Metadata Standards:
+          - Introduction: Standards/Metadata Standards/introduction.md
+          - Metadata Standard 1: Standards/Metadata Standards/metadata-standard-1.md
+          - Metadata Standard 2: Standards/Metadata Standards/metadata-standard-2.md
+  - Tools:
+      - Overview: Tools/overview.md
+      - Tool 1: Tools/tool-1.md
+      - Tool 2: Tools/tool-2.md
+  - Controlled Vocabularies:
+      - Overview: Controlled Vocabularies/overview.md
+      - Vocabulary 1: Controlled Vocabularies/vocabulary-1.md
+      - Vocabulary 2: Controlled Vocabularies/vocabulary-2.md
+  - Best Practices:
+      - Overview: Best Practices/overview.md
+      - Practice 1: Best Practices/practice-1.md
+      - Practice 2: Best Practices/practice-2.md
+  - Case Studies:
+      - Overview: Case Studies/overview.md
+      - Case Study 1: Case Studies/case-study-1.md
+      - Case Study 2: Case Studies/case-study-2.md
+  - Resources:
+      - Documentation: Resources/documentation.md
+      - Community: Resources/community.md
+  - FAQ: faq.md
+  - Contact: contact.md
