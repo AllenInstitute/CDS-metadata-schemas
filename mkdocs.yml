@@ -1,15 +1,21 @@
-site_name: Community Data Standards Metadata Schema Documentation
+site_name: "Community Data Standards Metadata Schema Documentation"
 site_url: https://alleninstitute.github.io/CDS-metadata-schemas/
 site_description: Documentation for the Community Data Standards Metadata Schema, providing guidelines and standards for metadata management
 site_author: Community Data Standards Team
-theme: readthedocs
-markdown_extensions:
-  - toc:
-      permalink: True
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+    accent: white
+  features:
+    - content.tabs.link
+plugins: 
+  - search
+  - mermaid2
 
 nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
+  - Overview: index.md
   - Standards:
       - Overview: Standards/overview.md
       - Data Standards:

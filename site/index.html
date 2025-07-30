@@ -45,13 +45,23 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#table-of-contents">Table of Contents</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a>
+    <li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#why-use-this-repository">Why Use This Repository?</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#schemas">Schemas</a>
+    <li class="toctree-l3"><a class="reference internal" href="#using-this-repository">Using This Repository</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#how-to-contribute">How to Contribute</a>
+    <li class="toctree-l3"><a class="reference internal" href="#browse-metadata-schemas">Browse Metadata Schemas</a>
     </li>
-    <li class="toctree-l2"><a class="reference internal" href="#terminology">Terminology</a>
+    <li class="toctree-l3"><a class="reference internal" href="#review-documentation">Review Documentation</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#propose-new-terms-or-schemas">Propose New Terms or Schemas</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#how-to-contribute">How to Contribute</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#terminology">Terminology</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#status-board">Status Board</a>
     </li>
@@ -59,7 +69,7 @@
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="getting-started/">Getting Started</a>
+                <li class="toctree-l1"><a class="" href="getting-started.md">Getting Started</a>
                 </li>
               </ul>
               <p class="caption"><span class="caption-text">Standards</span></p>
@@ -169,21 +179,128 @@
 <ul>
 <li><a href="#community-data-standards-metadata-schemas-and-documentation">Community Data Standards Metadata Schemas and Documentation</a></li>
 <li><a href="#table-of-contents">Table of Contents</a></li>
-<li><a href="#documentation">Documentation</a></li>
-<li><a href="#schemas">Schemas</a></li>
+<li><a href="#overview">Overview</a><ul>
+<li><a href="#why-use-this-repository">Why Use This Repository?</a></li>
+<li><a href="#using-this-repository">Using This Repository</a></li>
+<li><a href="#browse-metadata-schemas">Browse Metadata Schemas</a></li>
+<li><a href="#review-documentation">Review Documentation</a></li>
+<li><a href="#propose-new-terms-or-schemas">Propose New Terms or Schemas</a></li>
 <li><a href="#how-to-contribute">How to Contribute</a></li>
 <li><a href="#terminology">Terminology</a></li>
+</ul>
+</li>
 <li><a href="#status-board">Status Board</a></li>
 </ul>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
-<p>Documentation that supports development, implementation, standarization, and description of CDS metadata can be found in the <code>docs/</code> directory.</p>
-<h2 id="schemas">Schemas<a class="headerlink" href="#schemas" title="Permanent link">&para;</a></h2>
-<p>Metadata schemas are located in the <code>schemas/</code> directory. Each metadata schema is accompanied by a README document that contains descriptive information about that schema.</p>
-<p>Each metadata schema is reviewed and standardized by the CDS team. Documentation of this process can be found <a href="https://alleninstitute.atlassian.net/wiki/x/E4DNJw">here</a>.</p>
-<h2 id="how-to-contribute">How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permanent link">&para;</a></h2>
-<p>The CDS team supports community input and collaboration in developing, maintaining, and updating metadata schemas and documents. You are welcome to suggest updates or additions to the metadata standards by <a href="https://github.com/AllenInstitute/CDS-metadata-schemas/issues/new">creating GitHub issues</a> or emailing <a href="data.curation@alleninstitute.org">data.curation@alleninstitute.org</a>.</p>
-<h2 id="terminology">Terminology<a class="headerlink" href="#terminology" title="Permanent link">&para;</a></h2>
-<p>Metadata</p>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>This repository is maintained by the Community Data Standards (CDS) team to support the development, documentation, and use of metadata schemas and standards across Allen Institute engineering teams and partner applications. It serves as a centralized resource for:</p>
+<ul>
+<li>
+<p>Defining and maintaining metadata schemas used in internal services, external applications, and public data releases.</p>
+</li>
+<li>
+<p>Documenting standards and best practices for metadata modeling, validation, and versioning. This includes documenting what standards are desirable to align with for different topical areas.</p>
+</li>
+<li>
+<p>Managing controlled vocabularies (CVs) and enabling community input through a transparent term request and review process.</p>
+</li>
+<li>
+<p>Facilitating collaboration by providing clear contribution pathways for engineers, data curators, and scientific stakeholders.</p>
+</li>
+</ul>
+<p>The repository includes artifacts that support schema development such as data dictionaries or abstract data models, schema definitions (e.g., LinkML, JSON Schema), supporting documentation, review workflows, and tools for validating and integrating metadata. It is intended for use by CDS members, Allen Institute for Brain Science software and data engineering teams, and (eventually) external collaborators who work with structured metadata related to neuroscience data products.</p>
+<h3 id="why-use-this-repository">Why Use This Repository?<a class="headerlink" href="#why-use-this-repository" title="Permanent link">&para;</a></h3>
+<p>This repository is a central reference point for engineers working on applications, services, and pipelines that produce, consume or integrate metadata. Engineers should consult this repository when they:</p>
+<ul>
+<li>
+<p>Integrate with Internal or External Systems:  Ensure their service or application uses the metadata schemas appropriately when interfacing with shared APIs, data platforms, or release pipelines.  </p>
+</li>
+<li>
+<p>Understand why metadata are structured a certain way and how individual fields are intended to be used, both from a scientific/semantic perspective and from an engineering perspective.</p>
+</li>
+<li>
+<p>Avoid misusing fields – for example by overloading a field with additional meaning beyond its intended purpose, which can compromise metadata integrity.</p>
+</li>
+<li>
+<p>Validate, generate, or integrate metadata</p>
+</li>
+<li>
+<p>Use schema definitions to validate metadata before submitting or deploying.</p>
+</li>
+<li>
+<p>Generate metadata in the correct format for ingestion into services, apps, or archives.</p>
+</li>
+<li>
+<p>Understand how schemas map to internal applications and external resources.</p>
+</li>
+<li>
+<p>Update or extend metadata models</p>
+</li>
+<li>
+<p>Propose changes to existing schemas when requirements evolve.</p>
+</li>
+<li>
+<p>Contribute to new schemas for internal tools, new datasets or service-specific workflows.</p>
+</li>
+<li>
+<p>Align with standards and best practices.</p>
+</li>
+<li>
+<p>Follow naming conventions, standard data types and modeling principles.</p>
+</li>
+<li>
+<p>Reuse existing controlled vocabularies and schema components.</p>
+</li>
+<li>
+<p>Take advantage of semantic enhancements (e.g., synonyms, ontology mappings, linked references) embedded in vocabularies for inclusion in apps or tools.</p>
+</li>
+<li>
+<p>Understand the Metadata Lifecycle</p>
+</li>
+<li>
+<p>Learn how metadata is reviewed, approved, versioned and released.</p>
+</li>
+<li>
+<p>Understand schema ownership, responsibilities, and change management.</p>
+</li>
+</ul>
+<h3 id="using-this-repository">Using This Repository<a class="headerlink" href="#using-this-repository" title="Permanent link">&para;</a></h3>
+<p>This repository is organized to support easy access to metadata schemas, documentation, and contribution workflows.  </p>
+<h3 id="browse-metadata-schemas">Browse Metadata Schemas<a class="headerlink" href="#browse-metadata-schemas" title="Permanent link">&para;</a></h3>
+<p>All schemas are located in teh <code>schemas/</code> directory. Each schema is a structured file (YAML, JSON, LinkML) is accompanied by a README document that contains descriptive information about that schema including an explanation of its fields, intended use, and version.</p>
+<p>The Status Board shows the current version and reivew status of each schema.</p>
+<h3 id="review-documentation">Review Documentation<a class="headerlink" href="#review-documentation" title="Permanent link">&para;</a></h3>
+<p>The <code>docs/</code> directory contains:</p>
+<ul>
+<li>Best practices for metadata schema development.</li>
+<li>Schema versioning and naming conventions.</li>
+<li>Review and approval workflows (see the <a href="https://alleninstitute.atlassian.net/wiki/x/E4DNJw">CDS review and approval workflow</a>).</li>
+<li>Best practices for using controlled vocabularies.</li>
+</ul>
+<h3 id="propose-new-terms-or-schemas">Propose New Terms or Schemas<a class="headerlink" href="#propose-new-terms-or-schemas" title="Permanent link">&para;</a></h3>
+<p>Use GitHub issues to:</p>
+<ul>
+<li>Propose new controlled vocabulary terms.</li>
+<li>Suggest changes to existing schemas.</li>
+<li>Submit new schemas for review.</li>
+</ul>
+<p>Follow the instructions in the <a href="https://github.com/AllenInstitute/CDS-metadata-schemas/blob/300725patch1/README.md#L71">How to Contribute</a> file for how to create issues and pull requests.</p>
+<h3 id="how-to-contribute">How to Contribute<a class="headerlink" href="#how-to-contribute" title="Permanent link">&para;</a></h3>
+<p>The CDS team supports community input and collaboration in developing, maintaining, and updating metadata schemas and documents.</p>
+<ul>
+<li>
+<p>To propose new controlled vocabulary terms, use the <a href="https://github.com/AllenInstitute/CDS-metadata-schemas/issues">Controlled Vocabulary Term Request</a> template.</p>
+</li>
+<li>
+<p>To suggest changes to an existing schema, use the <a href="https://github.com/AllenInstitute/CDS-metadata-schemas/issues">New Metadata Element</a> template.</p>
+</li>
+<li>
+<p>To submit a new schema for review, use the <a href="https://github.com/AllenInstitute/CDS-metadata-schemas/issues">New Schema Request</a> template.</p>
+</li>
+<li>
+<p>For any other issues or questions, please create a new issue in the <a href="https://github.com/AllenInstitute/CDS-metadata-schemas/issues/new">CDS-metadata-schemas issue tracker</a> or email <a href="data.curation@alleninstitute.org">data.curation@alleninstitute.org</a>.</p>
+</li>
+</ul>
+<h3 id="terminology">Terminology<a class="headerlink" href="#terminology" title="Permanent link">&para;</a></h3>
 <p><strong>Metadata</strong> is the human and machine-readable descriptive information about a data resource that is necessary for tracking and using the data it describes. In the context of CDS, metadata is descriptive information that is necessary for understanding data at the Allen Institute for Brain Science. This information is provided in a structure defined by the schema.</p>
 <p>A <strong>schema</strong> is a human and machine-readable file-based specification for metadata. A specification defines the metadata structure and fields, including field name, description, format, and cardinality.</p>
 <p>An <strong>owner</strong> of a schema is the person or group of persons that assume responsibility for its creation, documentation, and movement through the metadata approval process.</p>
@@ -225,7 +342,7 @@
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="getting-started/" class="btn btn-neutral float-right" title="Getting Started">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="Standards/overview/" class="btn btn-neutral float-right" title="Overview">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -249,7 +366,7 @@
     
     
     
-      <span><a href="getting-started/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="Standards/overview/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -268,5 +385,5 @@
 
 <!--
 MkDocs version : 1.4.2
-Build Date UTC : 2025-07-29 20:57:05.725181+00:00
+Build Date UTC : 2025-07-30 20:49:11.701136+00:00
 -->
