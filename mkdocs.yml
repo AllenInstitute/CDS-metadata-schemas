@@ -1,7 +1,12 @@
 site_name: "Community Data Standards Metadata Schema Documentation"
 site_url: https://alleninstitute.github.io/CDS-metadata-schemas/
+repo_url: https://alleninstitute.github/CDS-metadata-schemas
+repo_name: 'GitHub'
 site_description: Documentation for the Community Data Standards Metadata Schema, providing guidelines and standards for metadata management
 site_author: Community Data Standards Team
+remote_branch: gh-pages
+remote_name: origin
+
 theme:
   name: material
   palette:
