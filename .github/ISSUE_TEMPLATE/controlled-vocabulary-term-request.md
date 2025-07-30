@@ -1,8 +1,8 @@
 ---
-name: Ontology Term Request
-about: Use this form to make an ontology term request.
-title: OTR
-labels: new ontology term
+name: Controlled Vocabulary Term Request
+about: Use this form to make a controlled vocabulary term request.
+title: Controlled Vocabulary Term Request
+labels: new controlled vocabulary term
 assignees: ''
 
 ---
