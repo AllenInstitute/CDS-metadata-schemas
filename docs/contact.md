@@ -6,10 +6,10 @@ For questions, feedback, or assistance with metadata schemas, please contact the
 
 - **GitHub Issues**: Use the [CDS-metadata-schemas issue tracker](https://github.com/AllenInstitute/CDS-metadata-schemas/issues) to report issues, suggest changes, or propose new schemas.
 
-### Community Data Standards (CDS) Team
+## Community Data Standards (CDS) Team
 
-* [Carol Thompson](mailto:carolth@alleninstitute.org) - CDS Team Lead
+- [Carol Thompson](mailto:carolth@alleninstitute.org) - CDS Team Lead
   
-* [Patrick Ray](mailto:patrick.ray@alleninstitute.org)
+- [Patrick Ray](mailto:patrick.ray@alleninstitute.org)
   
-* [Pamela Baker](mailto:pamela.baker@alleninstitute.org)
+- [Pamela Baker](mailto:pamela.baker@alleninstitute.org)
