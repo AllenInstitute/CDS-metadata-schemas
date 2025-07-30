@@ -38,7 +38,7 @@ nav:
       - Tool 2: Tools/tool-2.md
   - Controlled Vocabularies:
       - Overview: Controlled Vocabularies/overview.md
-      - Vocabulary 1: Controlled Vocabularies/vocabulary-1.md
+      - Experimental Techniques: Controlled Vocabularies/Experimental Techniques.md
       - Vocabulary 2: Controlled Vocabularies/vocabulary-2.md
   - Best Practices:
       - Overview: Best Practices/overview.md
