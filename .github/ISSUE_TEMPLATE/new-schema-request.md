@@ -45,4 +45,4 @@ assignees: ''
 
 ## Data Dictionary
 
-[if applicable, attach a data dictionary that describes the fields and values used in the schema]
+[if applicable, attach a [data dictionary](https://alleninstitute-my.sharepoint.com/:x:/g/personal/pamela_baker_alleninstitute_org/EVji6rPVSFpOsET6UCAzlEkBw8VyYQKcDCMW7MzA1JmPhQ?e=lfhxrM) that describes the fields and values used in the schema]
