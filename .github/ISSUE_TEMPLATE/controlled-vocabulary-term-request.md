@@ -13,11 +13,11 @@ assignees: ''
 
 ## Synonyms/Aliases
 
-[any synonyms or aliases of the term (including acronyms, abbreviations, and the like)
+[any synonyms or aliases of the term (including acronyms, abbreviations, and the like)]
 
 ## Definition
 
-[free text, with references, use PMID:XXXXXX or DOI for formatting)
+[free text, with references (use PMID:XXXXXX or DOI for formatting)]
 
 ## Parent Term
 
