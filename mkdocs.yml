@@ -38,6 +38,8 @@ nav:
       - Tool 2: Tools/tool-2.md
   - Controlled Vocabularies:
       - Overview: Controlled Vocabularies/overview.md
+      - How to request a CV term: Controlled Vocabularies/How to request a CV term.md
+      - From Ontology to CV: Controlled Vocabularies/From Ontology to CV.md
       - Experimental Techniques: Controlled Vocabularies/Experimental Techniques.md
       - Vocabulary 2: Controlled Vocabularies/vocabulary-2.md
   - Best Practices:
