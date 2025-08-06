@@ -61,6 +61,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Species%20CV/</loc>
+         <lastmod>2025-08-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Specimens/</loc>
          <lastmod>2025-08-06</lastmod>
          <changefreq>daily</changefreq>
