@@ -27,3 +27,9 @@
 | NCBITaxon:37347     | Tupaia belangeri          | treeshrew                |
 | NCBITaxon:10181     | Heterocephalus glaber     | naked mole rat           |
 | NCBITaxon:9823      | Sus scrofa                | pig                      |
+
+## Changelog
+
+- **August 7, 2025 — Version 1.0.0**
+    - Initial release of the Species Controlled Vocabulary.
+    - Added 25 species entries with NCBI Taxon IDs, labels, and synonyms.
