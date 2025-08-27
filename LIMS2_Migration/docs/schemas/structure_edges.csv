@@ -1,0 +1,7 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+parent_id,,,,NO,,integer,,,,structures
+child_id,,,,NO,,integer,,,,structures
+structure_graph_id,,,,NO,,integer,,,,structure_graphs
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

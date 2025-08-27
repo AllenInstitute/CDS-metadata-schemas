@@ -1,0 +1,18 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+type,,,,YES,,character varying,,255.0,,
+order,,,,NO,,integer,,,,
+parent_id,,,,YES,,integer,,,,avg_graphic_objects
+address,,,,YES,,character varying,,255.0,,
+group_label_id,,,,YES,,integer,,,,avg_group_labels
+cap_position,,,,YES,,character varying,,2.0,,
+sub_image_id,,,,YES,,integer,,,,sub_images
+structure_id,,,,YES,,integer,,,,structures
+path,,,,YES,,text,,,,
+mag,,,,YES,,double precision,,,,
+display_attributes,,,,YES,,text,,,,
+template_id,,,,YES,,integer,,,,avg_graphic_objects
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+well_known_file_id,,,,YES,,integer,,,,well_known_files
+cortex_layer_id,,,,YES,,integer,,,,structures

@@ -1,0 +1,27 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+rig_name,,,,YES,,character varying,,255.0,,
+notes,,,,YES,,text,,,,
+failed_clogged_pipette,,,,YES,,boolean,,,,
+failed_no_seal,,,,YES,,boolean,,,,
+failed_bad_rs,,,,YES,,boolean,,,,
+failed_other,,,,YES,,boolean,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+ephys_specimen_roi_plan_id,,,,YES,,integer,,,,ephys_specimen_roi_plans
+workflow_state,,,,YES,,character varying,,255.0,,
+ephys_qc_criteria_id,,,,YES,,integer,,,,ephys_qc_criterias
+seal_gohm,,,,YES,,double precision,,,,
+input_resistance_mohm,,,,YES,,double precision,,,,
+electrode_0_pa,,,,YES,,double precision,,,,
+failed_electrode_0,,,,YES,,boolean,,,,
+recording_date,,,,YES,,timestamp without time zone,,,,
+initial_access_resistance_mohm,,,,YES,,double precision,,,,
+input_access_resistance_ratio,,,,YES,,double precision,,,,
+published_at,,,,YES,,timestamp without time zone,,,,
+blowout_mv,,,,YES,,double precision,,,,
+sampling_rate,,,,YES,,integer,,,,
+qc_notes,,,,YES,,text,,,,
+stage1_reviewer_id,,,,YES,,integer,,,,users
+stage2_reviewer_id,,,,YES,,integer,,,,users

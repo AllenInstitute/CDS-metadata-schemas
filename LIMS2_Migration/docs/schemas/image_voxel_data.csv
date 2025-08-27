@@ -1,0 +1,10 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+image_series_id,,,,YES,,integer,,,,image_series
+reference_space_id,,,,YES,,integer,,,,reference_spaces
+data_type,,,,YES,,character varying,,,,
+resolution_x,,,,YES,,double precision,,,,
+resolution_y,,,,YES,,double precision,,,,
+resolution_z,,,,YES,,double precision,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

@@ -1,0 +1,10 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+injection_id,,,,NO,,integer,,,,injections
+registration_point_id,,,,NO,,integer,,,,registration_points
+coordinates_ap,,,,NO,,double precision,,,0,
+coordinates_ml,,,,NO,,double precision,,,0,
+coordinates_dv,,,,NO,,double precision,,,0,
+angle,,,,NO,,integer,,,0,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

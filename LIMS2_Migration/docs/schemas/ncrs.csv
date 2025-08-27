@@ -1,0 +1,19 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+notes,,,,YES,,character varying,,255.0,,
+title,,,,YES,,character varying,,255.0,,
+is_planned,,,,YES,,boolean,,,,
+reporter_id,,,,YES,,integer,,,,users
+supervisor_id,,,,YES,,integer,,,,users
+reviewer_id,,,,YES,,integer,,,,users
+occurred,,,,YES,,timestamp without time zone,,,,
+reported,,,,YES,,timestamp without time zone,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+details,,,,YES,,character varying,,255.0,,
+corrective_action,,,,YES,,character varying,,255.0,,
+results_and_recommendations,,,,YES,,character varying,,255.0,,
+reviewers_comments,,,,YES,,character varying,,255.0,,
+ncr_state,,,,YES,,character varying,,255.0,,
+project_id,,,,YES,,integer,,,,projects
+storage_directory,,,,YES,,character varying,,255.0,,

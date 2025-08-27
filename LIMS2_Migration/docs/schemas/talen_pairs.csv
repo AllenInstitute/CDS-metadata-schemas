@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+gene_id,,,,YES,,integer,,,,genes
+talen1_id,,,,YES,,integer,,,,talens
+talen2_id,,,,YES,,integer,,,,talens
+name,,,,NO,,character varying,,255.0,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+gene_terminus_id,,,,YES,,integer,,,,gene_termini
+sequence_id,,,,YES,,integer,,,,sequences

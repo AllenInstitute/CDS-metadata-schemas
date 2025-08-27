@@ -1,0 +1,15 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+notes,,,,YES,,text,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+tissue_processing_template_id,,,,YES,,integer,,,,task_templates
+ephys_neural_tissue_plan_id,,,,YES,,integer,,,,ephys_neural_tissue_plans
+cell_prep_id,,,,YES,,integer,,,,cell_preps
+section_thickness_um,,,,YES,,integer,,,,
+instructions,,,,YES,,text,,,,
+plane_of_section_id,,,,YES,,integer,,,,plane_of_sections
+tcp_sop_id,,,,YES,,integer,,,,tcp_sops
+ephys_neural_tissue_template_id,,,,YES,,integer,,,,task_templates
+cell_prep_dissection_template_id,,,,YES,,integer,,,,task_templates
+angle_deg,,,,YES,,integer,,,,

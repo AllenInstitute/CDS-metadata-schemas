@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+rna_amplification_id,,,,YES,,integer,,,,rna_amplifications
+sample_id,,,,YES,,integer,,,,
+sample_type,,,,YES,,character varying,,255.0,,
+sample_quantity_pg,,,,YES,,double precision,,,,
+sample_quantity_count,,,,YES,,integer,,,,
+sample_index_id,,,,YES,,integer,,,,rseq_oligos

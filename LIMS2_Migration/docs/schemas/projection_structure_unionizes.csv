@@ -1,0 +1,22 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+image_series_id,,,,NO,,integer,,,,image_series
+structure_id,,,,NO,,integer,,,,structures
+hemisphere_id,,,,NO,,integer,,,,hemispheres
+is_injection,,,,YES,,boolean,,,,
+sum_pixels,,,,YES,,double precision,,,,
+sum_projection_pixels,,,,YES,,double precision,,,,
+sum_pixel_intensity,,,,YES,,double precision,,,,
+sum_projection_pixel_intensity,,,,YES,,double precision,,,,
+projection_density,,,,YES,,double precision,,,,
+projection_intensity,,,,YES,,double precision,,,,
+projection_energy,,,,YES,,double precision,,,,
+volume,,,,YES,,double precision,,,,
+projection_volume,,,,YES,,double precision,,,,
+normalized_projection_volume,,,,YES,,double precision,,,,
+max_voxel_density,,,,YES,,double precision,,,,
+max_voxel_x,,,,YES,,integer,,,,
+max_voxel_y,,,,YES,,integer,,,,
+max_voxel_z,,,,YES,,integer,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

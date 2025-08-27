@@ -1,0 +1,26 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+type,,,,NO,,character varying,,255.0,,
+seqid,,,,YES,,character varying,,255.0,,
+source,,,,YES,,character varying,,255.0,,
+feature,,,,YES,,character varying,,255.0,,
+start,,,,NO,,integer,,,,
+stop,,,,NO,,integer,,,,
+score,,,,YES,,double precision,,,,
+strand,,,,YES,,character varying,,255.0,,
+phase,,,,YES,,integer,,,,
+organism_id,,,,NO,,integer,,,,organisms
+genomic_reference_update_id,,,,NO,,integer,,,,genomic_reference_updates
+gene_symbol,,,,YES,,character varying,,255.0,,
+entrez_id,,,,YES,,integer,,,,
+chromosome_id,,,,YES,,integer,,,,chromosomes
+full_accession,,,,YES,,character varying,,255.0,,
+gene_aliases,,,,YES,,text,,,"'--- []
+'::text",
+homologene_id,,,,YES,,integer,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+version_status,,,,YES,,character varying,,255.0,,
+reference_genome_id,,,,YES,,integer,,,,reference_genomes
+for_gtf_generation,,,,NO,,boolean,,,FALSE,

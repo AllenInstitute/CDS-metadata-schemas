@@ -1,0 +1,20 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+anneal_temp_celsius,,,,YES,,double precision,,,,
+product_size_bp,,,,YES,,integer,,,,
+notes,,,,YES,,text,,,,
+primer1_name,,,,YES,,character varying,,255.0,,
+primer2_name,,,,YES,,character varying,,255.0,,
+round,,,,YES,,integer,,,,
+has_correct_band,,,,YES,,boolean,,,,
+storage_directory,,,,YES,,character varying,,255.0,,
+junction_pcr_round1_id,,,,YES,,integer,,,,engineering_steps
+junction_pcr_round2_id,,,,YES,,integer,,,,engineering_steps
+nuclease_activity_id,,,,YES,,integer,,,,nuclease_activities
+primer1_sequence_id,,,,YES,,integer,,,,sequences
+primer2_sequence_id,,,,YES,,integer,,,,sequences
+pcr_polymerase_id,,,,YES,,integer,,,,pcr_polymerases
+pcr_name_id,,,,YES,,integer,,,,pcr_names
+gene_id,,,,YES,,integer,,,,genes
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

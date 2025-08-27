@@ -1,0 +1,12 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,,,
+for_upload_display,,,,YES,,boolean,,,FALSE,
+default_scale_factor_x,,,,YES,,double precision,,,,
+default_scale_factor_y,,,,YES,,double precision,,,,
+default_scale_factor_z,,,,YES,,double precision,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+swc_well_known_file_type_id,,,,YES,,integer,,,,well_known_file_types
+marker_well_known_file_type_id,,,,YES,,integer,,,,well_known_file_types
+static_data,,,,YES,,jsonb,,,'{}'::jsonb,

@@ -1,0 +1,5 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+image_series_id,,,,YES,,integer,,,,
+ext_image_series_id,,,,YES,,integer,,,,
+treatment_id,,,,YES,,integer,,,,
+ext_treatment_id,,,,YES,,integer,,,,

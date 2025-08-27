@@ -1,0 +1,8 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+wash_temp_celsius,,,,YES,,double precision,,,,
+wash_duration,,,,YES,,double precision,,,,
+southern_blot_id,,,,YES,,integer,,,,southern_blots
+wash_buffer_type_id,,,,YES,,integer,,,,wash_buffer_types
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,

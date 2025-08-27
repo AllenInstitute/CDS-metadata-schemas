@@ -1,0 +1,26 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,NO,,character varying,,,,
+method,,,,YES,,character varying,,,,
+task_id,,,,YES,,integer,,,,task_templates
+organism_id,,,,YES,,integer,,,,organisms
+description,,,,YES,,text,,,,
+create_date,,,,YES,,timestamp without time zone,,,,
+received_date,,,,YES,,timestamp without time zone,,,,
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
+gene_panel_oligo_pool_id,,,,YES,,integer,,,,gene_panel_oligo_pools
+volume_ul,,,,YES,,double precision,,,,
+average_nt,,,,YES,,double precision,,,,
+conc_ng_ul,,,,YES,,double precision,,,,
+pmol_ul,,,,YES,,double precision,,,,
+qpcr_name,,,,YES,,character varying,,,,
+qpcr_date,,,,YES,,date,,,,
+qpcr_method,,,,YES,,character varying,,,,
+qpcr_f_primer,,,,YES,,character varying,,,,
+qpcr_r_primer,,,,YES,,character varying,,,,
+qpcr_r_primer_pmol,,,,YES,,double precision,,,,
+qpcr_f_primer_pmol,,,,YES,,double precision,,,,
+qpcr_rxnvol_ul,,,,YES,,double precision,,,,
+qpcr_cycle_count,,,,YES,,double precision,,,,
+qpcr_result,,,,YES,,character varying,,,,

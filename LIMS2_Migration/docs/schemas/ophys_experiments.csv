@@ -1,0 +1,26 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+name,,,,YES,,character varying,,255.0,,
+storage_directory,,,,YES,,character varying,,255.0,,
+workflow_state,,,,YES,,character varying,,255.0,,
+ophys_session_id,,,,YES,,integer,,,,
+targeted_structure_id,,,,YES,,integer,,,,structures
+imaging_depth_id,,,,YES,,integer,,,,imaging_depths
+qc_operator_id,,,,YES,,integer,,,,users
+calculated_depth,,,,YES,,double precision,,,,
+experiment_container_id,,,,YES,,integer,,,,experiment_containers
+ophys_primary_image_id,,,,YES,,integer,,,,images
+ophys_z_stack_local_image_id,,,,YES,,integer,,,,images
+averaged_surface_image_id,,,,YES,,integer,,,,images
+averaged_depth_image_id,,,,YES,,integer,,,,images
+maximum_intensity_projection_image_id,,,,YES,,integer,,,,images
+mip_isi_offset_x,,,,YES,,integer,,,,
+mip_isi_offset_y,,,,YES,,integer,,,,
+movie_width,,,,YES,,integer,,,,
+movie_height,,,,YES,,integer,,,,
+movie_number_of_frames,,,,YES,,integer,,,,
+raw_movie_width,,,,YES,,integer,,,,
+raw_movie_height,,,,YES,,integer,,,,
+raw_movie_number_of_frames,,,,YES,,integer,,,,
+ophys_imaging_plane_group_id,,,,YES,,integer,,,,ophys_imaging_plane_groups
+movie_frame_rate_hz,,,,YES,,double precision,,,,

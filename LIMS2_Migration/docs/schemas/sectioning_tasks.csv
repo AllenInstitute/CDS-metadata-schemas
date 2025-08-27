@@ -1,0 +1,11 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+section_thickness_um,,,,YES,,integer,,,,
+plane_of_section_id,,,,YES,,integer,,,,plane_of_sections
+tcp_sop_id,,,,YES,,integer,,,,tcp_sops
+sectioning_task_template_id,,,,YES,,integer,,,,task_templates
+notes,,,,YES,,text,,,,
+instructions,,,,YES,,text,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+angle_deg,,,,YES,,integer,,,,

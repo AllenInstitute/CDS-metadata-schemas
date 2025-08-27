@@ -1,0 +1,9 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+current_host,,,,YES,,character varying,,255.0,,
+archived_host,,,,YES,,character varying,,255.0,,
+current_storage_directory,,,,YES,,character varying,,255.0,,
+archived_storage_directory,,,,YES,,character varying,,255.0,,
+archived_at,,,,YES,,date,,,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,

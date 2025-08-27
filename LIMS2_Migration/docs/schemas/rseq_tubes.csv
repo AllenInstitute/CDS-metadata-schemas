@@ -1,0 +1,13 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+rseq_tube_set_id,,,,YES,,integer,,,,rseq_tube_sets
+name,,,,YES,,character varying,,255.0,,
+failed,,,,YES,,boolean,,,,
+internal_name,,,,YES,,character varying,,255.0,,
+concentration_from_vendor_nm,,,,YES,,double precision,,,,
+avg_size_bp,,,,YES,,integer,,,,
+content_quantity_ng,,,,YES,,double precision,,,,
+content_quantity_ul,,,,YES,,double precision,,,,
+content_concentration_nm,,,,YES,,double precision,,,,
+flowcell,,,,YES,,character varying,,,,
+demux_recipe,,,,YES,,character varying,,,,

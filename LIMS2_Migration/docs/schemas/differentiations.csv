@@ -1,0 +1,15 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+cell_bank_id,,,,YES,,integer,,,,cell_banks
+progenitor_cell_bank_id,,,,YES,,integer,,,,cell_banks
+notes,,,,YES,,text,,,,
+workflow_state,,,,YES,,character varying,,255.0,,
+created_at,,,,YES,,timestamp without time zone,,,,
+updated_at,,,,YES,,timestamp without time zone,,,,
+name,,,,YES,,character varying,,255.0,,
+passage_number,,,,YES,,integer,,,,
+barcode,,,,YES,,character varying,,255.0,,
+is_control,,,,YES,,boolean,,,,
+differentiation_set_id,,,,YES,,integer,,,,differentiation_sets
+stem_cell_line_id,,,,YES,,integer,,,,stem_cell_lines
+storage_directory,,,,YES,,character varying,,255.0,,

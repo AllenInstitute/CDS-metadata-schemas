@@ -1,0 +1,6 @@
+field_name,field_name_aliases,data_model_entity,definition,nullable,permissible_values,data_type,data_example,character_maximum_length,column_default,foreign_key_table_id
+id,,,,NO,,integer,,,nextval('lims_locally_unique_id_seq'::regclass),
+primary_tissue_source_id,,,,YES,,integer,,,,primary_tissue_sources
+source_role_id,,,,YES,,integer,,,,source_roles
+created_at,,,,NO,,timestamp without time zone,,,,
+updated_at,,,,NO,,timestamp without time zone,,,,
