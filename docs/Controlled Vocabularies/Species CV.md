@@ -27,11 +27,19 @@
 | NCBITaxon:37347     | Tupaia belangeri          | treeshrew                |
 | NCBITaxon:10181     | Heterocephalus glaber     | naked mole rat           |
 | NCBITaxon:9823      | Sus scrofa                | pig                      |
+| NCBITaxon:9539      | Macaca*                   | macaque*                 |
+
+## Usage Notes
+
+For animals simply named 'macaque', we use the taxon 'Macaca' which is actually a genus (not a species). Since we cannot be certain of the actual species specified, we simply note the genus (NCBITaxon:9539). This is due to underspecification or uncertainty regarding the primates involved.
 
 ## Changelog
 
 - **August 28, 2025 -- Version 1.0.1**
-  - 
+  - Changed column from 'label' to 'binomial name'
+  - Changed column from 'synonyms' to 'common name'
+  - Added NCBITaxon:9539 (Macaca)
+  - Updated Usage Notes to describe how to handle generic 'macaque'
 
 - **August 7, 2025 — Version 1.0.0**
   - Initial release of the Species Controlled Vocabulary.
