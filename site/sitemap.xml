@@ -66,6 +66,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Process%20Types%20%28Taxonomy%29/</loc>
+         <lastmod>2025-09-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Species%20CV/</loc>
          <lastmod>2025-09-02</lastmod>
          <changefreq>daily</changefreq>
