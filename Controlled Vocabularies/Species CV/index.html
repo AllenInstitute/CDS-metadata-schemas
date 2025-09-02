@@ -658,6 +658,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#usage-notes" class="md-nav__link">
+    Usage Notes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#changelog" class="md-nav__link">
     Changelog
   </a>
@@ -953,6 +960,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#usage-notes" class="md-nav__link">
+    Usage Notes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#changelog" class="md-nav__link">
     Changelog
   </a>
@@ -979,8 +993,8 @@
 <thead>
 <tr>
 <th>ID</th>
-<th>Label</th>
-<th>Synonym</th>
+<th>Binomial Name</th>
+<th>Common Name</th>
 </tr>
 </thead>
 <tbody>
@@ -1109,15 +1123,29 @@
 <td>Sus scrofa</td>
 <td>pig</td>
 </tr>
+<tr>
+<td>NCBITaxon:9539</td>
+<td>Macaca*</td>
+<td>macaque*</td>
+</tr>
 </tbody>
 </table>
+<h2 id="usage-notes">Usage Notes</h2>
+<p>For animals simply named 'macaque', we use the taxon 'Macaca' which is actually a genus (not a species). Since we cannot be certain of the actual species specified, we simply note the genus (NCBITaxon:9539). This is due to underspecification or uncertainty regarding the primates involved.</p>
 <h2 id="changelog">Changelog</h2>
 <ul>
-<li><strong>August 7, 2025 — Version 1.0.0</strong><ul>
+<li><strong>August 28, 2025 -- Version 1.0.1</strong></li>
+<li>Changed column from 'label' to 'binomial name'</li>
+<li>Changed column from 'synonyms' to 'common name'</li>
+<li>Added NCBITaxon:9539 (Macaca)</li>
+<li>
+<p>Updated Usage Notes to describe how to handle generic 'macaque'</p>
+</li>
+<li>
+<p><strong>August 7, 2025 — Version 1.0.0</strong></p>
+</li>
 <li>Initial release of the Species Controlled Vocabulary.</li>
 <li>Added 25 species entries with NCBI Taxon IDs, labels, and synonyms.</li>
-</ul>
-</li>
 </ul>
 
 
