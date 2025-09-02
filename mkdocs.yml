@@ -43,6 +43,9 @@ nav:
       - Experimental Techniques: Controlled Vocabularies/Experimental Techniques.md
       - Specimens: Controlled Vocabularies/Specimens.md
       - Species: Controlled Vocabularies/Species CV.md
+      - Digital Asset Types (file types): Controlled Vocabularies/Digital Asset Types (file types).md
+      - Digital Asset Types CV: Controlled Vocabularies/Digital Asset Types CV.csv
+      - Process Types (Taxonomy): Controlled Vocabularies/Process Types (Taxonomy).md
   - Best Practices:
       - Overview: Best Practices/overview.md
       - Practice 1: Best Practices/practice-1.md
