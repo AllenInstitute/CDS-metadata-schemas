@@ -1,0 +1,1305 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the Community Data Standards Metadata Schema, providing guidelines and standards for metadata management">
+      
+      
+        <meta name="author" content="Community Data Standards Team">
+      
+      
+        <link rel="canonical" href="https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Digital%20Asset%20Types%20%28file%20types%29/">
+      
+      
+        <link rel="prev" href="../Species%20CV/">
+      
+      
+        <link rel="next" href="../Digital%20Asset%20Types%20CV.csv">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.6">
+    
+    
+      
+        <title>Digital Asset Types (file types) - Community Data Standards Metadata Schema Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="white">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#digtial-asset-controlled-vocabulary" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Community Data Standards Metadata Schema Documentation" class="md-header__button md-logo" aria-label="Community Data Standards Metadata Schema Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Community Data Standards Metadata Schema Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Digital Asset Types (file types)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://alleninstitute.github/CDS-metadata-schemas" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Community Data Standards Metadata Schema Documentation" class="md-nav__button md-logo" aria-label="Community Data Standards Metadata Schema Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Community Data Standards Metadata Schema Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://alleninstitute.github/CDS-metadata-schemas" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Standards
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Standards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+          Data Standards
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Data Standards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/Data%20Standards/introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/Data%20Standards/standard-1/" class="md-nav__link">
+        Standard 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/Data%20Standards/standard-2/" class="md-nav__link">
+        Standard 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/Data%20Standards/standard-3/" class="md-nav__link">
+        Standard 3
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          Metadata Standards
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Metadata Standards
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/Metadata%20Standards/introduction/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/Metadata%20Standards/metadata-standard-1/" class="md-nav__link">
+        Metadata Standard 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Standards/Metadata%20Standards/metadata-standard-2/" class="md-nav__link">
+        Metadata Standard 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Tools
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Tools
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tools/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tools/tool-1/" class="md-nav__link">
+        Tool 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tools/tool-2/" class="md-nav__link">
+        Tool 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Controlled Vocabularies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Controlled Vocabularies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../How%20to%20request%20a%20CV%20term/" class="md-nav__link">
+        How to request a CV term
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../From%20Ontology%20to%20CV/" class="md-nav__link">
+        From Ontology to CV
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Experimental%20Techniques/" class="md-nav__link">
+        Experimental Techniques
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Specimens/" class="md-nav__link">
+        Specimens
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Species%20CV/" class="md-nav__link">
+        Species
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Digital Asset Types (file types)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Digital Asset Types (file types)
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    
+  </a>
+  
+    <nav class="md-nav" aria-label="">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Digital%20Asset%20Types%20CV.csv" class="md-nav__link">
+        Digital Asset Types CV
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Process%20Types%20%28Taxonomy%29/" class="md-nav__link">
+        Process Types (Taxonomy)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Best Practices
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Best Practices
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Best%20Practices/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Best%20Practices/practice-1/" class="md-nav__link">
+        Practice 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Best%20Practices/practice-2/" class="md-nav__link">
+        Practice 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Case Studies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Case Studies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Studies/overview/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Studies/case-study-1/" class="md-nav__link">
+        Case Study 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Case%20Studies/case-study-2/" class="md-nav__link">
+        Case Study 2
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Resources
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Resources
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Resources/documentation/" class="md-nav__link">
+        Documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Resources/community/" class="md-nav__link">
+        Community
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        Contact
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    
+  </a>
+  
+    <nav class="md-nav" aria-label="">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="digtial-asset-controlled-vocabulary">Digtial Asset Controlled Vocabulary</h1>
+<h2 id="_1"></h2>
+<h3 id="_2"></h3>
+<table>
+<thead>
+<tr>
+<th>Label</th>
+<th>Synonym</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FASTQ</td>
+<td>FASTQ format</td>
+<td>A (text-based) format that is used for storing a biological sequence (typically a nucleotide sequence) and its corresponding quality scores. The sequence letter and quality score are encoded using a single ASCII character.</td>
+</tr>
+<tr>
+<td>BAM</td>
+<td>binary alignment map format</td>
+<td>A format that is the compressed binary representation of a sequence alignment map format.</td>
+</tr>
+<tr>
+<td>TIFF</td>
+<td>tag image file format</td>
+<td>A format that is for storing raster graphics images.</td>
+</tr>
+<tr>
+<td>SWC</td>
+<td>SWC file format, SWC neuron morphology format</td>
+<td>A format that is used to store neuron morphology data, to share information to digitally reconstruct neurons, and to predict functional attributes using simulation environments.</td>
+</tr>
+<tr>
+<td>NWB</td>
+<td>neurodata without borders format, NWB format, NWB file format</td>
+<td>A format that is designed to store a wide range of neurophysiology data. It is a HDF5 file that has data organized by including a dedicated location for storing all data that is acquired during an experiment as well as another location to store stimulus data that was presented.</td>
+</tr>
+<tr>
+<td>browser extensible data format</td>
+<td>BED, browser extensible data file format, BED format, BED file format</td>
+<td>A format that is a text file used to store data regarding genomic regions as coordinates and associated annotations.</td>
+</tr>
+<tr>
+<td>bigBed</td>
+<td>bigBed format, bigBed file format</td>
+<td>A format that is created from a BED file that stores annotation items that are simple or a linked collection of exons. They are in an indexed binary format.</td>
+</tr>
+<tr>
+<td>comma-separated values format</td>
+<td>CSV, CSV format, CSV file format</td>
+<td>A format that is a delimited text file that uses a comma to separate values. Each line of the file is a data record, and each record consists of one or more fields, separated by commas.</td>
+</tr>
+<tr>
+<td>MTX</td>
+<td>MTX format, MTX file format</td>
+<td>A format that is associated with a 3D scene format consisting of a ASCII text written using XML-style tags representing 3D object hierarchies, animation data, and global scene options.</td>
+</tr>
+<tr>
+<td>tab-separated values format</td>
+<td>TSV, TSV format, TSV file format</td>
+<td>A format that is a text file format used to store data in a tabular structure, for example, a database table or spreadsheet data. It is also used as a means of exchanging information between databases.</td>
+</tr>
+<tr>
+<td>H5</td>
+<td>HDF5, hierarchical data format 5</td>
+<td>A format that contains multidimensional arrays of scientific data.</td>
+</tr>
+<tr>
+<td>Loom</td>
+<td>Loom format</td>
+<td>A format that is designed to hold large -omics datasets. The format is based on HDF5 in that it is an HDF5 file that contains specific groups containing the main matrix as well as row and column attributes.</td>
+</tr>
+<tr>
+<td>PLINK.bed</td>
+<td>.bed PLINK file</td>
+<td>A format that is a binary text file format for PLINK that serves as input for analysis. This is the preferred file type for representing genotype calls for PLINK.</td>
+</tr>
+<tr>
+<td>bim</td>
+<td>.bim file, .bim format, PLINK extended MAP file</td>
+<td>A format that is a variant information file accompanying a .bed or biallelic .pgen binary genotype table.</td>
+</tr>
+<tr>
+<td>fam</td>
+<td>.fam file, .fam format, PLINK sample information file</td>
+<td>A format that is a sample information file accompanying a .bed or biallelic .pgen binary genotype table.</td>
+</tr>
+<tr>
+<td>brain imaging data structure</td>
+<td>BIDS, BIDS format, BIDS file format, brain imaging data structure file format</td>
+<td>A format that is a standard for organizing and describing neuroimaging and behavioral data.</td>
+</tr>
+<tr>
+<td>H5AD</td>
+<td>H5AD format</td>
+<td>A HDF5 file format that provides a scalable way of keeping track of data together with learned annotations. It is anndata's native file format.</td>
+</tr>
+<tr>
+<td>NGFF</td>
+<td>NGFF format, zarr file, Next-generation file format</td>
+<td>A format that is designed to hold information about multidimensional, multiscale images, high-content screening datasets and derived labeled images. They are able to be hosted natively in an object (or cloud) storage for direct access by a large number of users.</td>
+</tr>
+<tr>
+<td>Nifti file format</td>
+<td>Nifti format, nii file</td>
+<td>A format that is designed for neuroimaging data that is similar to the Analyze for the storage of Functional Magnetic Resonance Imaging (fMRI) and other medical images.</td>
+</tr>
+<tr>
+<td>JSON</td>
+<td>JSON format, json file, JavaScript Object Notation, JavaScript Object Notation format</td>
+<td>A format that is an open standard file format and data interchange format that uses human-readable text consisting of attribute-value pairs and arrays to store and transmit data.</td>
+</tr>
+<tr>
+<td>JSON-LD</td>
+<td>JSON-LD format, JSON-LD file, JavaScript Object Notation for Linked Data</td>
+<td>A format that is an open standard file format and data interchange format that uses human-readable text consisting of attribute-value pairs and arrays to store and transmit data in addition to a linked data (LD) element.</td>
+</tr>
+<tr>
+<td>OME TIFF</td>
+<td>OME-TIFF file, OME-TIFF format</td>
+<td>A format for storing microscopy imaging data created to maximize the respective strengths of OME-XML and TIFF. It takes advantage of metadata defined in OME-XML while retaining the pixels in multi-page TIFF format for compatibility with many more applications.</td>
+</tr>
+<tr>
+<td>mex</td>
+<td>mex format, mex file</td>
+<td>A format that is used to represent the gene-barcode matrix output by Cell Ranger. This is a sparse matrix format because the matrix for UMI counts for each barcode/gene pair are very large (~35K genes vs hundreds of thousands of barcodes) and most entries are 0.</td>
+</tr>
+<tr>
+<td>scn</td>
+<td>scn format, scn file</td>
+<td>A format that is used in digital pathology, which is a proprietary format used by Leica Biosystems scanners to store whole slide images (WSIs).</td>
+</tr>
+<tr>
+<td>docx</td>
+<td>docx format, docx file, Microsoft Word Open XML Document</td>
+<td>A format that is used as the default, modern Microsoft Word document format that uses Office Open XML (OOXML), a zipped archive of XML files that supports rich features like formatting, images, and tables.</td>
+</tr>
+<tr>
+<td>PDF</td>
+<td>PDF format, pdf file, Portable Document Format</td>
+<td>A format that is used to present documents, including text formatting and images, in a manner independent of application software, hardware, and operating systems.</td>
+</tr>
+<tr>
+<td>PNG</td>
+<td>PNG format, png file, Portable Network Graphics</td>
+<td>A format that is a raster-graphics file format that supports lossless data compression.</td>
+</tr>
+<tr>
+<td>tar</td>
+<td>.tar file, tarball</td>
+<td>A format that is an archive file format for bundling multiple files and directories into a single file, often on Unix-like systems, to simplify backups and distribution.</td>
+</tr>
+<tr>
+<td>gb</td>
+<td>gb format, gb file, GenBank format</td>
+<td>A format that is a standard plain-text format used for storing biological sequence information, such as DNA, RNA and protein sequences, along with associated metadata.</td>
+</tr>
+<tr>
+<td>jpg</td>
+<td>jpg format, jpg file, JPEG format, JPEG</td>
+<td>A format that is a type of image format that is saved using the method of lossy compression.</td>
+</tr>
+<tr>
+<td>directory</td>
+<td>folder, directory folder</td>
+<td>A "directory file format" isn't one standard, but refers to the underlying file system's internal structure that organizes files and other directories, containing entries like inode numbers and names in Unix-like systems, or a similar mapping structure in others like FAT or NTFS. Directories, also known as folders, are special files themselves that store lists of pointers to other files and directories, enabling a hierarchical, tree-like structure for organizing data on a storage device.</td>
+</tr>
+<tr>
+<td>bmp</td>
+<td>bmp format, bmp file, bitmap</td>
+<td>A format that is a raster graphics image file format used to store bitmap digital images, independently of the display device (such as a graphics adapter).</td>
+</tr>
+<tr>
+<td>fasta</td>
+<td>FASTA format, fasta file</td>
+<td>A format that is a text-based format for representing either nucleotide sequences or amino acid (protein) sequences, in which nucleotides or amino acids are represented using single-letter codes.</td>
+</tr>
+<tr>
+<td>gz</td>
+<td>gz format, gz file, gzip format, gzip</td>
+<td>A format that is a compressed archive created using the standard gzip (GNU zip) compression algorithm. A GZ File may contain multiple compressed files, directories and file stubs.</td>
+</tr>
+<tr>
+<td>javascript</td>
+<td>JS, JS format, js file, JavaScript</td>
+<td>A format that contains JavaScript code for execution on web pages. JavaScript files are stored with the .js extension.</td>
+</tr>
+<tr>
+<td>svg</td>
+<td>SVG format, svg file, Scalable Vector Graphics</td>
+<td>A format that uses XML based text format for describing the appearance of an image (Scalar Vector Graphics file).</td>
+</tr>
+<tr>
+<td>txt</td>
+<td>TXT format, txt file, text file, flat file</td>
+<td>A format that is structured as a sequence of lines of electronic text.</td>
+</tr>
+<tr>
+<td>parquet</td>
+<td>parquet format, parquet file, Apache Parquet</td>
+<td>A format that is a free and open-source column-oriented data storage format in the Apache Hadoop ecosystem.</td>
+</tr>
+<tr>
+<td>zip</td>
+<td>zip format, zip file</td>
+<td>A format (archive file format) that supports lossless data compression. A ZIP file may contain one or more files or directories that may have been compressed.</td>
+</tr>
+<tr>
+<td>xlsx</td>
+<td>XLSX format, xlsx file, Microsoft Excel Open XML Spreadsheet</td>
+<td>A format that is a modern Microsoft Excel spreadsheet format that uses Office Open XML (OOXML), a zipped archive of XML files that supports rich features like formatting, formulas, and charts.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.tabs.link"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>
