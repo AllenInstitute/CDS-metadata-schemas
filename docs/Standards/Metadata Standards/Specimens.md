@@ -20,27 +20,6 @@ For example, if one was submitting data regarding interneurons, the appropriate 
 
 As each assay and specimen type will have slightly different features/characteristics, the requirements for each may vary depending on specimen type or assay type.
 
-## Organisms
-
-Data regarding organisms should annotated using NCBI organismal classification. Each species has a unique ID in NCBI and this is why it is preferred over common name or binomial name. Currently, AIO supports a subset of these already, listed in the table below. If there is a species that is missing, users can request that we add NCBI species ID.
-
-| Common Name                   | NCBITaxon ID        | Binomial Name               |
-|-------------------------------|---------------------|-----------------------------|
-| human                         | NCBITaxon:9606      | Homo sapiens                |
-| mouse                         | NCBITaxon:10090     | Mus musculus                |
-| grivet                        | NCBITaxon:9534      | Chlorocebus aethiops        |
-| arctic ground squirrel        | NCBITaxon:9999      | Urocitellus parryii         |
-| nine-banded armadillo         | NCBITaxon:9361      | Dasypus novemcinctus        |
-| common chimpanzee             | NCBITaxon:9598      | Pan troglodytes             |
-| domesticated ferret           | NCBITaxon:1353796   | Mustela furo                |
-| western gorilla               | NCBITaxon:9593      | Gorilla gorilla             |
-| southern pig-tailed macaque   | NCBITaxon:9545      | Macaca nemestrina           |
-| gray short-tailed opossum     | NCBITaxon:13616     | Monodelphis domestica       |
-| Nancy Ma's night monkey       | NCBITaxon:37293     | Aotus nancymaae             |
-| brown rat/common rat          | NCBITaxon:10116     | Rattus norvegicus           |
-| crab-eating macaque           | NCBITaxon:9541      | Macaca fascicularis         |
-| European rabbit               | NCBITaxon:9986      | Oryctolagus cuniculus       |
-
 ## Specimens
 
 A specimen is a material entity that has the specimen role, where a specimen role is simply a particular intent to use that entity in an investigation. Since specimens have no restriction in terms of specific material form (i.e., they can be anything at all so long as there is intent to use them in an investigation), specimens are typically categorized in terms of their material form. For example, here is a list of common specimen types:
