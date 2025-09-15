@@ -24,18 +24,21 @@ As each assay and specimen type will have slightly different features/characteri
 
 A specimen is a material entity that has the specimen role, where a specimen role is simply a particular intent to use that entity in an investigation. Since specimens have no restriction in terms of specific material form (i.e., they can be anything at all so long as there is intent to use them in an investigation), specimens are typically categorized in terms of their material form. For example, here is a list of common specimen types:
 
-| Label                | Ontology ID   | Definition                                                                                                                                                                                                                                                                                                                                 | Notes/Synonyms                |
-|----------------------|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| cell specimen        | OBI:0001468  | A specimen primarily composed of a cell or cells collected from a multicellular organism or a cell culture.                                                                                                                                                                                                                                |                               |
-| single cell specimen | EFO:0007831  | A sample specimen consisting of exactly one cell.                                                                                                                                                                                                                                                                                          |                               |
-| neuroblast           | CL:0000031   | A cell that will develop into a neuron often after a migration phase.                                                                                                                                                                                                                                                                      |                               |
-| neuron               | CL:0000540   | The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.                                                                                                                                                      |                               |
-| GABAergic neuron     | CL:0000617   | A neuron that uses GABA as a vesicular neurotransmitter.                                                                                                                                                                                                                                                                                   | synonym: GABA-ergic neuron    |
-| hippocampal neuron   | CL:0002608   | A neuron of the hippocampus.                                                                                                                                                                                                                                                                                                               |                               |
-| interneuron          | CL:0000099   | Most generally any neuron which is not motor or sensory. Interneurons may also refer to neurons whose axons remain within a particular brain region as contrasted with projection neurons which have axons projecting to other brain regions.                                                        |                               |
-| pyramidal neuron     | CL:0000598   | Pyramidal neurons have a pyramid-shaped soma with a single axon, a large apical dendrite and multiple basal dendrites. The apex and an apical dendrite typically point toward the pial surface and other dendrites and an axon emerging from the base. The axons may have local collaterals but also project outside their region. Pyramidal neurons are found in the cerebral cortex, the hippocampus, and the amygdala. |                               |
-| peripheral neuron    | CL:0000111   | A neuron that is part of nerve found outside the central nervous system.                                                                                                                                                                                                                                                                    |                               |
-| sensory neuron       | CL:0000101   | Any neuron having a sensory function; an efferent neuron conveying sensory impulses.                                                                                                                                                                                                                                                       |                               |
+| specimen type | controlled term | description | CURIE |
+|---------------|-----------------|-------------|-------|
+| brain | whole brain specimen | A specimen composed of a whole brain collected from a multicellular organism. | aio:whole_brain_specimen  |
+| slab | brain specimen slab | A specimen composed of a brain slab. | aio:brain_specimen_slab |
+| block | brain specimen block | A specimen composed of a brain block. | aio:brain_specimen_block |
+| hemi-sected block | brain specimen hemi-sected block | A specimen composed of a hemi-sected block of a brain. | aio:brain_specimen_hemi-sected_block |
+| section | brain specimen section | A specimen composed of a section of a brain. | aio:brain_specimen_section |
+| brain section set | brain section set | A specimen composed of a brain sections. | aio:brain_section_set |
+| cell | brain cell specimen | A specimen composed of a brain cell. | aio:brain_cell_specimen |
+
+### Specimen Attributes for Specific Specimen Types
+
+The following attributes are recommended for specific specimen types. Note that these attributes are not exhaustive and may be extended as needed.
+
+#### MERFISH Specimens
 
 ## Assays
 
