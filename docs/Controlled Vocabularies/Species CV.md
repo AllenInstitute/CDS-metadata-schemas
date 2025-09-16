@@ -31,7 +31,7 @@
 
 ## Usage Notes
 
-For animals simply named 'macaque', we use the taxon 'Macaca' which is actually a genus (not a species). Since we cannot be certain of the actual species specified, we simply note the genus (NCBITaxon:9539). This is due to underspecification or uncertainty regarding the primates involved.
+For animals simply named 'macaque', we use the taxon 'Macaca' which is actually a genus (not a species). Since these animals are grouped together for analysis purposes, we will use the genus term (NCBITaxon:9539).
 
 ## Changelog
 
