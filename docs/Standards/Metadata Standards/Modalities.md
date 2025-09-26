@@ -4,7 +4,7 @@ The controlled vocabulary for modalities is a set of terms used to describe the 
 
 ## Controlled Vocabulary for Modalities
 
-You can find the controlled vocabulary for modalities in the table below or in the table format in the 'modalities_CV.csv'() file in this repository.
+You can find the controlled vocabulary for modalities in the table below or in the table format in the ['modalities_CV.csv'](https://github.com/AllenInstitute/CDS-metadata-schemas/blob/eb20224409ef9f10aef4c8a185815613d4e7f3b3/docs/Controlled%20Vocabularies/modalities_CV.csv) file in this repository.
 
 | Label | Synonyms | ID | Ontology ID |
 |-------|----------|----|-------------|
