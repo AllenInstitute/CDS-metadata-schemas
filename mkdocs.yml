@@ -25,35 +25,30 @@ nav:
       - Overview: Standards/overview.md
       - Data Standards:
           - Introduction: Standards/Data Standards/introduction.md
-          - Standard 1: Standards/Data Standards/standard-1.md
-          - Standard 2: Standards/Data Standards/standard-2.md
-          - Standard 3: Standards/Data Standards/standard-3.md
       - Metadata Standards:
           - Introduction: Standards/Metadata Standards/introduction.md
-          - Metadata Standard 1: Standards/Metadata Standards/metadata-standard-1.md
-          - Metadata Standard 2: Standards/Metadata Standards/metadata-standard-2.md
+          - Cell Types Nomenclature Standard: Standards/Metadata Standards/Cell Types Nomenclature Standard.md
+          - Digital Asset Types (file types): Standards/Metadata Standards/Digital Asset Types (file types).md
+          - Modalities: Standards/Metadata Standards/Modalities.md
+          - Specimens: Standards/Metadata Standards/Specimens.md
+          - Digital Asset Types (file types): Standards/Metadata Standards/Digital Asset Types (file types).md
+          - Process Types (Taxonomy): Standards/Metadata Standards/Process Types (Taxonomy).md
+          - Experimental Techniques: Standards/Metadata Standards/Experimental Techniques.md
+          - Species: Standards/Metadata Standards/Species.md
   - Tools:
       - Overview: Tools/overview.md
-      - Tool 1: Tools/tool-1.md
-      - Tool 2: Tools/tool-2.md
   - Controlled Vocabularies:
       - Overview: Controlled Vocabularies/overview.md
-      - How to request a CV term: Controlled Vocabularies/How to request a CV term.md
-      - From Ontology to CV: Controlled Vocabularies/From Ontology to CV.md
-      - Experimental Techniques: Controlled Vocabularies/Experimental Techniques.md
-      - Specimens: Controlled Vocabularies/Specimens.md
-      - Species: Controlled Vocabularies/Species CV.md
-      - Digital Asset Types (file types): Controlled Vocabularies/Digital Asset Types (file types).md
+      - Techniques: Controlled Vocabularies/techniques_CV.csv
+      - Species: Controlled Vocabularies/species_CV.csv
+      - Modalities: Controlled Vocabularies/modalities_CV.csv
       - Digital Asset Types CV: Controlled Vocabularies/Digital Asset Types CV.csv
-      - Process Types (Taxonomy): Controlled Vocabularies/Process Types (Taxonomy).md
   - Best Practices:
       - Overview: Best Practices/overview.md
-      - Practice 1: Best Practices/practice-1.md
-      - Practice 2: Best Practices/practice-2.md
+      - From Ontology to CV: Best Practices/From Ontology to CV.md
+      - How to request a CV term: Best Practices/How to request a CV term.md
   - Case Studies:
       - Overview: Case Studies/overview.md
-      - Case Study 1: Case Studies/case-study-1.md
-      - Case Study 2: Case Studies/case-study-2.md
   - Resources:
       - Documentation: Resources/documentation.md
       - Community: Resources/community.md

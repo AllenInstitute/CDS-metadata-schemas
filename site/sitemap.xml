@@ -2,152 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/contact/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/faq/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Best%20Practices/From%20Ontology%20to%20CV/</loc>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Best%20Practices/How%20to%20request%20a%20CV%20term/</loc>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Best%20Practices/overview/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Best%20Practices/practice-1/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Best%20Practices/practice-2/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Case%20Studies/case-study-1/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Case%20Studies/case-study-2/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Case%20Studies/overview/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Digital%20Asset%20Types%20%28file%20types%29/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Experimental%20Techniques/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/From%20Ontology%20to%20CV/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/How%20to%20request%20a%20CV%20term/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Process%20Types%20%28Taxonomy%29/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Species%20CV/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/Specimens/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Controlled%20Vocabularies/overview/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Resources/community/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Resources/documentation/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/overview/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Data%20Standards/introduction/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Data%20Standards/standard-1/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Data%20Standards/standard-2/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Data%20Standards/standard-3/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/Cell%20Types%20Nomenclature%20Standard/</loc>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/Digital%20Asset%20Types%20%28file%20types%29/</loc>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/Experimental%20Techniques/</loc>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/Modalities/</loc>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/Process%20Types%20%28Taxonomy%29/</loc>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/Species/</loc>
+         <lastmod>2025-09-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/Specimens/</loc>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/introduction/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/metadata-standard-1/</loc>
-         <lastmod>2025-09-02</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Standards/Metadata%20Standards/metadata-standard-2/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Tools/overview/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Tools/tool-1/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://alleninstitute.github.io/CDS-metadata-schemas/Tools/tool-2/</loc>
-         <lastmod>2025-09-02</lastmod>
+         <lastmod>2025-09-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -1,6 +1,10 @@
 # Modalities
 
+The controlled vocabulary for modalities is a set of terms used to describe the various types of data acquisition methods or the broad object (characteristic) of the target entity employed in research studies. These modalities help categorize and standardize the way data is collected, making it easier to share, compare, and analyze across different studies and datasets.
+
 ## Controlled Vocabulary for Modalities
+
+You can find the controlled vocabulary for modalities in the table below or in the table format in the ['modalities_CV.csv'](https://github.com/AllenInstitute/CDS-metadata-schemas/blob/eb20224409ef9f10aef4c8a185815613d4e7f3b3/docs/Controlled%20Vocabularies/modalities_CV.csv) file in this repository.
 
 | Label | Synonyms | ID | Ontology ID |
 |-------|----------|----|-------------|
@@ -20,6 +24,11 @@
 
 ## Changelog
 
-### 2024-09-10
+### 2025-09-22
+
+- Added new text describing the purpose of the document and the table
+- Added new table for controlled vocabulary for modalities
+
+### 2025-09-10
 
 - Added IDs and reformatted table
