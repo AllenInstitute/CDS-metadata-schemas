@@ -41,7 +41,7 @@ Engage with the CDS community to share best practices and learn from others. Par
 
 ## Changelog
 
-- **April 15, 2024 -- Version 1.0.1**
+- **September 26, 2025 -- Version 1.0.0**
   - Added sections on Regular Updates and Community Engagement.
   - Updated Consistent Terminology section to emphasize controlled vocabularies.
 
